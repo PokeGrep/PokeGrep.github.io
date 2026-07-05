@@ -1,4 +1,4 @@
-package pokegrep
+package main
 
 import (
 	"os"
