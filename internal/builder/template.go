@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func buildTemplate(p_templateSource string, p_data struct{}, p_templateOutput string) bool {
+func buildTemplate(p_templateSource string, p_data any, p_templateOutput string) bool {
 	tmpl := template.Must(
 		template.ParseFiles(p_templateSource),
 	)
