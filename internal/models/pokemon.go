@@ -322,3 +322,20 @@ type Pokemon struct {
 	} `json:"-"`
 	EvolutionChainID int `json:"-"`
 }
+
+// Get the supported games by cheking if a Version Group is defined
+// for a move.
+func (p_poke *Pokemon) GetSupportedGames() map[string]bool {
+	games := make(map[string]bool)
+	for _, m := range p_poke.Moves {
+		for _, detail := range m.VersionGroupDetails {
+			games[detail.VersionGroup.Name] = true
+		}
+	}
+	return games
+}
+
+// Check if the pokemon is present in a version group
+func (p_poke *Pokemon) IsPresentIn(versionGroup string) bool {
+	return p_poke.GetSupportedGames()[versionGroup]
+}
