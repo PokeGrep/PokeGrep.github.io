@@ -88,7 +88,7 @@ type Pokemon struct {
 			} `json:"type"`
 		} `json:"types"`
 	} `json:"past_types"`
-	Species   struct {
+	Species struct {
 		Name string `json:"name"`
 		URL  string `json:"url"`
 	} `json:"species"`
@@ -303,8 +303,8 @@ type Pokemon struct {
 			URL  string `json:"url"`
 		} `json:"type"`
 	} `json:"types"`
-	Weight          int `json:"weight"`
-	LocalizedNames  []struct {
+	Weight         int `json:"weight"`
+	LocalizedNames []struct {
 		Language struct {
 			Name string `json:"name"`
 		} `json:"language"`
@@ -321,133 +321,4 @@ type Pokemon struct {
 		URL  string `json:"url"`
 	} `json:"-"`
 	EvolutionChainID int `json:"-"`
-}
-
-func (p *Pokemon) GetName(lang string) string {
-	targetLang := lang
-	if lang == "ja" {
-		targetLang = "ja-hrkt"
-	}
-	for _, n := range p.LocalizedNames {
-		if n.Language.Name == targetLang {
-			return n.Name
-		}
-	}
-	return p.Name
-}
-
-func (p *Pokemon) GetGenus(lang string) string {
-	targetLang := lang
-	if lang == "ja" {
-		targetLang = "ja-hrkt"
-	}
-	for _, g := range p.LocalizedGenera {
-		if g.Language.Name == targetLang {
-			return g.Genus
-		}
-	}
-	return ""
-}
-
-type PokemonType struct {
-	Slot int `json:"slot"`
-	Type struct {
-		Name string `json:"name"`
-		URL  string `json:"url"`
-	} `json:"type"`
-}
-
-func (p *Pokemon) GetTypesForGen(pageKey string) []PokemonType {
-	targetGen := 9
-	switch pageKey {
-	case "gen-1":
-		targetGen = 1
-	case "gen-2":
-		targetGen = 2
-	case "gen-3":
-		targetGen = 3
-	case "gen-4":
-		targetGen = 4
-	case "gen-5":
-		targetGen = 5
-	case "gen-6":
-		targetGen = 6
-	case "gen-7":
-		targetGen = 7
-	case "sword-shield", "bdsp", "legends-arceus":
-		targetGen = 8
-	case "scarlet-violet", "legends-za", "champions":
-		targetGen = 9
-	}
-
-	var bestGen int = 999
-	var bestTypes []PokemonType
-
-	for _, pt := range p.PastTypes {
-		genNum := 9
-		switch pt.Generation.Name {
-		case "generation-i":
-			genNum = 1
-		case "generation-ii":
-			genNum = 2
-		case "generation-iii":
-			genNum = 3
-		case "generation-iv":
-			genNum = 4
-		case "generation-v":
-			genNum = 5
-		case "generation-vi":
-			genNum = 6
-		case "generation-vii":
-			genNum = 7
-		case "generation-viii":
-			genNum = 8
-		case "generation-ix":
-			genNum = 9
-		}
-
-		if genNum >= targetGen && genNum < bestGen {
-			bestGen = genNum
-			bestTypes = make([]PokemonType, len(pt.Types))
-			for i, t := range pt.Types {
-				bestTypes[i] = PokemonType{
-					Slot: t.Slot,
-					Type: struct {
-						Name string `json:"name"`
-						URL  string `json:"url"`
-					}{
-						Name: t.Type.Name,
-						URL:  t.Type.URL,
-					},
-				}
-			}
-		}
-	}
-
-	if bestTypes != nil {
-		return bestTypes
-	}
-
-	currentTypes := make([]PokemonType, len(p.Types))
-	for i, t := range p.Types {
-		currentTypes[i] = PokemonType{
-			Slot: t.Slot,
-			Type: struct {
-				Name string `json:"name"`
-				URL  string `json:"url"`
-			}{
-				Name: t.Type.Name,
-				URL:  t.Type.URL,
-			},
-		}
-	}
-	return currentTypes
-}
-
-func (p *Pokemon) GetPrimaryTypeForGen(pageKey string) string {
-	types := p.GetTypesForGen(pageKey)
-	if len(types) > 0 {
-		return types[0].Type.Name
-	}
-	return "normal"
 }
