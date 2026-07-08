@@ -1,5 +1,7 @@
 package models
 
+import "pokegrep/internal/ref"
+
 type Pokemon struct {
 	Abilities []struct {
 		Ability struct {
@@ -66,27 +68,14 @@ type Pokemon struct {
 			Name string `json:"name"`
 			URL  string `json:"url"`
 		} `json:"generation"`
-		Stats []struct {
-			BaseStat int `json:"base_stat"`
-			Effort   int `json:"effort"`
-			Stat     struct {
-				Name string `json:"name"`
-				URL  string `json:"url"`
-			} `json:"stat"`
-		} `json:"stats"`
+		Stats PokemonStats `json:"stats"`
 	} `json:"past_stats"`
 	PastTypes []struct {
 		Generation struct {
 			Name string `json:"name"`
 			URL  string `json:"url"`
 		} `json:"generation"`
-		Types []struct {
-			Slot int `json:"slot"`
-			Type struct {
-				Name string `json:"name"`
-				URL  string `json:"url"`
-			} `json:"type"`
-		} `json:"types"`
+		Types PokemonTypes `json:"types"`
 	} `json:"past_types"`
 	Species struct {
 		Name string `json:"name"`
@@ -288,22 +277,9 @@ type Pokemon struct {
 			} `json:"generation-viii"`
 		} `json:"versions"`
 	} `json:"sprites"`
-	Stats []struct {
-		BaseStat int `json:"base_stat"`
-		Effort   int `json:"effort"`
-		Stat     struct {
-			Name string `json:"name"`
-			URL  string `json:"url"`
-		} `json:"stat"`
-	} `json:"stats"`
-	Types []struct {
-		Slot int `json:"slot"`
-		Type struct {
-			Name string `json:"name"`
-			URL  string `json:"url"`
-		} `json:"type"`
-	} `json:"types"`
-	Weight         int `json:"weight"`
+	Stats          PokemonStats `json:"stats"`
+	Types          PokemonTypes `json:"types"`
+	Weight         int          `json:"weight"`
 	LocalizedNames []struct {
 		Language struct {
 			Name string `json:"name"`
@@ -336,6 +312,94 @@ func (p_poke *Pokemon) GetSupportedGames() map[string]bool {
 }
 
 // Check if the pokemon is present in a version group
-func (p_poke *Pokemon) IsPresentIn(versionGroup string) bool {
-	return p_poke.GetSupportedGames()[versionGroup]
+func (p_poke *Pokemon) IsPresentIn(p_versionGroup string) bool {
+	return p_poke.GetSupportedGames()[p_versionGroup]
+}
+
+func (p_poke *Pokemon) GetSpriteUrl() string {
+	return p_poke.Sprites.FrontDefault
+}
+
+func (p_poke *Pokemon) GetSpriteArtworkURL() string {
+	return p_poke.Sprites.Other.OfficialArtwork.FrontDefault
+}
+
+type pokemonType struct {
+	Name string `json:"name"`
+	URL  string `json:"url"`
+}
+
+type PokemonTypes []struct {
+	Slot int         `json:"slot"`
+	Type pokemonType `json:"type"`
+}
+
+type pokemonStat struct {
+	Name string `json:"name"`
+	URL  string `json:"url"`
+}
+
+type PokemonStats []struct {
+	BaseStat int `json:"base_stat"`
+	Effort   int `json:"effort"`
+	Stat     struct {
+		Name string `json:"name"`
+		URL  string `json:"url"`
+	} `json:"stat"`
+}
+
+func (p_poke *Pokemon) GetTypes(p_gen ref.GenerationInfo) PokemonTypes {
+	if len(p_poke.PastTypes) > 0 {
+		for _, pastTypes := range p_poke.PastTypes {
+			if p_gen.IsLessOrEqual(pastTypes.Generation.Name) {
+				return pastTypes.Types
+			}
+		}
+	}
+	return p_poke.Types
+}
+
+func (p_poke *Pokemon) GetStats(p_gen ref.GenerationInfo) PokemonStats {
+	// Copy p_poke.stats so we don't alter it
+	stats := make(PokemonStats, len(p_poke.Stats))
+	copy(stats, p_poke.Stats)
+
+	// Retrieve Special Stat if we're on Gen 1
+	if p_gen == ref.GENERATIONS.GEN1 {
+		for _, pastStats := range p_poke.PastStats {
+			if !p_gen.IsLessOrEqual(pastStats.Generation.Name) {
+				continue
+			}
+			for _, pastStat := range pastStats.Stats {
+				for i := range stats {
+					// Si c'est le "special", on met à jour l'attaque ET la défense spéciale de notre copie
+					if pastStat.Stat.Name == "special" && (stats[i].Stat.Name == "special-attack" || stats[i].Stat.Name == "special-defense") {
+						stats[i].BaseStat = pastStat.BaseStat
+						stats[i].Effort = pastStat.Effort
+					} else if stats[i].Stat.Name == pastStat.Stat.Name {
+						stats[i].BaseStat = pastStat.BaseStat
+						stats[i].Effort = pastStat.Effort
+					}
+				}
+			}
+		}
+		return stats // return Gen 1 stats
+	}
+
+	// Other gens
+	for _, pastStats := range p_poke.PastStats {
+		if !p_gen.IsLessOrEqual(pastStats.Generation.Name) {
+			continue
+		}
+		for _, pastStat := range pastStats.Stats {
+			for i := range stats {
+				if stats[i].Stat.Name == pastStat.Stat.Name {
+					stats[i].BaseStat = pastStat.BaseStat
+					stats[i].Effort = pastStat.Effort
+				}
+			}
+		}
+	}
+
+	return stats
 }

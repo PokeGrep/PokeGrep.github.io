@@ -1,66 +1,129 @@
 package builder
 
-type Gen8Versions struct {
-	SS   string
-	LA   string
-	BDSP string
-}
+import (
+	"fmt"
+	"pokegrep/internal/db"
+	"pokegrep/internal/models"
+	"pokegrep/internal/models/helpers"
+	"pokegrep/internal/ref"
+	"sort"
+)
 
-type Gen9Versions struct {
-	SV        string
-	LZA       string
-	CHAMPIONS string
-}
-
-type Generations struct {
-	GEN1 string
-	GEN2 string
-	GEN3 string
-	GEN4 string
-	GEN5 string
-	GEN6 string
-	GEN7 string
-	GEN8 Gen8Versions
-	GEN9 Gen9Versions
-}
-
-var GENERATIONS = Generations{
-	GEN1: "generation-i",
-	GEN2: "generation-ii",
-	GEN3: "generation-iii",
-	GEN4: "generation-iv",
-	GEN5: "generation-v",
-	GEN6: "generation-vi",
-	GEN7: "generation-vii",
-	GEN8: Gen8Versions{
-		SS:   "sword-shield",
-		LA:   "legends-arceus",
-		BDSP: "brilliant-diamond-shining-pearl",
-	},
-	GEN9: Gen9Versions{
-		SV:        "scarlet-violet",
-		LZA:       "legends-za",
-		CHAMPIONS: "champions",
-	},
-}
-
-func isVersionGroup(p_gen string) bool {
-	switch p_gen {
-	case GENERATIONS.GEN8.SS,
-		GENERATIONS.GEN8.LA,
-		GENERATIONS.GEN8.BDSP,
-		GENERATIONS.GEN9.SV,
-		GENERATIONS.GEN9.LZA,
-		GENERATIONS.GEN9.CHAMPIONS:
-		return true
-	default:
-		return false
+func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
+	tmpl := []string{
+		"templates/layouts/base.html",
+		"templates/partials/navbar.html",
+		"templates/partials/footer.html",
+		"templates/generation.html",
 	}
-}
 
-func buildGeneration(p_lang string, p_gen string) bool {
-	return buildAbility(p_lang, p_gen) &&
+	// langModel, err := db.GetByName[models.Language](
+	// 	db.DirLanguage,
+	// 	p_lang,
+	// )
+	// if err != nil {
+	// 	panic("langModel not found")
+	// }
+	// langTrans := helpers.GetTranslated(
+	// 	langModel,
+	// 	helpers.NamesField,
+	// 	p_lang,
+	// )
+
+	var genTrans string
+	var genPokemons []GenerationPokemon
+
+	// If p_gen refers as a Generation (I-VII) instead of a Version Group
+	// (sword-shield, scarlet-violet..)
+	if !p_gen.IsVersionGroup() {
+		genModel, err := db.GetByName[models.Generation](
+			db.DirGeneration,
+			p_gen.Name,
+		)
+		if err != nil {
+			panic("genModel not found")
+		}
+		genTrans = helpers.GetTranslated(
+			genModel,
+			helpers.NamesField,
+			p_lang,
+		)
+
+		pokemonSpecies := genModel.PokemonSpecies
+		for _, pokemonSpecie := range pokemonSpecies {
+			id := helpers.GetResourceId(pokemonSpecie.URL)
+			entry, err := db.GetById[models.PokemonSpecies](
+				db.DirPokemonSpecies,
+				id,
+			)
+			if err != nil {
+				panic(fmt.Sprintf("pokemon-species with %d not found", id))
+			}
+
+			var pokemonTypes GenerationPokemonTypes
+
+			for i := range entry.GetTypes(p_gen) {
+				pokemonType, err := db.GetByName[models.Type](db.DirType, entry.GetTypes(p_gen)[i].Type.Name)
+				if err != nil {
+					panic(err)
+				}
+
+				pokemonTypes = append(pokemonTypes, struct {
+					Slot int
+					Type GenerationPokemonType
+				}{
+					Slot: entry.GetTypes(p_gen)[i].Slot,
+					Type: GenerationPokemonType{
+						Name:      helpers.GetTranslated(pokemonType, helpers.NamesField, p_lang),
+						Shortname: pokemonType.Name,
+					},
+				})
+			}
+
+			generationPokemon := GenerationPokemon{
+				PokedexId: entry.GetPokedexEntryNumber(),
+				Name:      helpers.GetTranslated(entry, helpers.NamesField, p_lang),
+				SpriteURL: entry.GetSpriteURL(),
+				Types:     pokemonTypes,
+			}
+
+			genPokemons = append(genPokemons, generationPokemon)
+
+			// Cleanup the types
+			pokemonTypes = GenerationPokemonTypes{}
+
+			// Sort genPokemons by their pokedex id
+			sort.Slice(genPokemons, func(i1, i2 int) bool {
+				return genPokemons[i1].PokedexId < genPokemons[i2].PokedexId
+			})
+		}
+
+	} else {
+		genModel, err := db.GetByName[models.VersionGroup](
+			db.DirVersionGroup,
+			p_gen.Name,
+		)
+		if err != nil {
+			panic("genModel not found")
+		}
+		genTrans = helpers.GetTranslated(
+			genModel,
+			helpers.NamesField,
+			p_lang,
+		)
+	}
+
+	data := GenerationPage{
+		Page: Page{
+			Lang:  p_lang,
+			Title: genTrans,
+		},
+		GenerationName:     genTrans,
+		GenerationPokemons: genPokemons,
+	}
+	return buildTemplate(tmpl, data, "dist/"+p_lang+"/"+p_gen.Name) &&
+		buildAbility(p_lang, p_gen) &&
 		buildItem(p_lang, p_gen) &&
 		buildMove(p_lang, p_gen) &&
-		buildPokemon(p_lang, p_gen)
+		buildPokemonSpecies(p_lang, p_gen)
 }

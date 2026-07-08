@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"reflect"
 	"strconv"
 	"strings"
 )
@@ -91,7 +92,22 @@ func GetById[T any](p_resourceType ResourceDir, id int) (*T, error) {
 		return nil, fmt.Errorf("error while reading the JSON : %w", err)
 	}
 
+	// Cache by ID
 	cache[cacheKey] = &item
+
+	// Also cache by Name if the field exists
+	val := reflect.ValueOf(item)
+	if val.Kind() == reflect.Ptr {
+		val = val.Elem()
+	}
+	if val.Kind() == reflect.Struct {
+		nameField := val.FieldByName("Name")
+		if nameField.IsValid() && nameField.Kind() == reflect.String {
+			nameCacheKey := fmt.Sprintf("%s/name/%s", p_resourceType, nameField.String())
+			cache[nameCacheKey] = &item
+		}
+	}
+
 	return &item, nil
 }
 
@@ -130,4 +146,30 @@ func GetAll[T any](p_resourceType ResourceDir) ([]*T, error) {
 
 	cache[cacheKey] = list
 	return list, nil
+}
+
+// Fetches resource by name as long as p_resourceType is valid
+//
+// Usage showcase : db.GetByName[models.Pokemon](db.DirPokemon, "charizard")
+func GetByName[T any](p_resourceType ResourceDir, p_name string) (*T, error) {
+	cacheKey := fmt.Sprintf("%s/name/%s", p_resourceType, p_name)
+
+	// Return item if cache[p_resourceType/name/p_name] found (should be
+	// the case if the element has already been loaded by id)
+	if val, exists := cache[cacheKey]; exists {
+		return val.(*T), nil
+	}
+
+	// Load all elements (which will populate the name cache for everyone)
+	_, err := GetAll[T](p_resourceType)
+	if err != nil {
+		return nil, err
+	}
+
+	// Try lookup again from populated cache
+	if val, exists := cache[cacheKey]; exists {
+		return val.(*T), nil
+	}
+
+	return nil, fmt.Errorf("resource %s (Name: %s) not found", p_resourceType, p_name)
 }

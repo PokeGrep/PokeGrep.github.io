@@ -1,0 +1,13 @@
+{{ define "content" }}
+    {{ range .GenerationPokemons }}
+    <div>
+        <p>#{{ .PokedexId }}  {{ .Name }}</p>
+        <img class="pixel-art" src="{{ .SpriteURL}}" loading="lazy"/>
+        <div>
+            {{ range .Types }}
+                <span>{{ .Type.Name }}</span>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+{{ end }}

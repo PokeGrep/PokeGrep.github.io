@@ -1,5 +1,10 @@
 package models
 
+import (
+	"pokegrep/internal/db"
+	"pokegrep/internal/ref"
+)
+
 type PokemonSpecies struct {
 	BaseHappiness int `json:"base_happiness"`
 	CaptureRate   int `json:"capture_rate"`
@@ -89,4 +94,58 @@ type PokemonSpecies struct {
 			URL  string `json:"url"`
 		} `json:"pokemon"`
 	} `json:"varieties"`
+}
+
+func (p_pokemonSpecies PokemonSpecies) GetPokedexEntryNumber() int {
+	nationalDex, err := db.GetByName[Pokedex](
+		db.DirPokedex,
+		ref.POKEDEXES.NATIONAL.Name,
+	)
+	if err != nil {
+		panic(err)
+	}
+
+	entryNumber := -1
+
+	for _, pokemonEntry := range nationalDex.PokemonEntries {
+		if pokemonEntry.PokemonSpecies.Name == p_pokemonSpecies.Name {
+			entryNumber = pokemonEntry.EntryNumber
+		}
+	}
+	return entryNumber
+}
+
+func (p_pokemonSpecies PokemonSpecies) GetSpriteURL() string {
+	pokemon, err := db.GetById[Pokemon](
+		db.DirPokemon,
+		p_pokemonSpecies.ID,
+	)
+	if err != nil {
+		panic(err)
+	}
+
+	return pokemon.GetSpriteUrl()
+}
+
+func (p_pokemonSpecies *PokemonSpecies) GetSpriteArtworkURL() string {
+	pokemon, err := db.GetById[Pokemon](
+		db.DirPokemon,
+		p_pokemonSpecies.ID,
+	)
+	if err != nil {
+		panic(err)
+	}
+
+	return pokemon.GetSpriteArtworkURL()
+}
+
+func (p_pokemonSpecies *PokemonSpecies) GetTypes(p_gen ref.GenerationInfo) PokemonTypes {
+	pokemon, err := db.GetById[Pokemon](
+		db.DirPokemon,
+		p_pokemonSpecies.ID,
+	)
+	if err != nil {
+		panic(err)
+	}
+	return pokemon.GetTypes(p_gen)
 }

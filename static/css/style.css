@@ -1,0 +1,106 @@
+:root {
+    /* Normal */
+    --type-color-normal: #9CA3AF;
+    --type-bg-normal: rgba(156, 163, 175, 0.12);
+    --type-border-normal: rgba(156, 163, 175, 0.25);
+
+    /* Fire */
+    --type-color-fire: #F97316;
+    --type-bg-fire: rgba(249, 115, 22, 0.12);
+    --type-border-fire: rgba(249, 115, 22, 0.25);
+
+    /* Water */
+    --type-color-water: #3B82F6;
+    --type-bg-water: rgba(59, 130, 246, 0.12);
+    --type-border-water: rgba(59, 130, 246, 0.25);
+
+    /* Electric */
+    --type-color-electric: #EAB308;
+    --type-bg-electric: rgba(234, 179, 8, 0.12);
+    --type-border-electric: rgba(234, 179, 8, 0.25);
+
+    /* Grass */
+    --type-color-grass: #10B981;
+    --type-bg-grass: rgba(16, 185, 129, 0.12);
+    --type-border-grass: rgba(16, 185, 129, 0.25);
+
+    /* Ice */
+    --type-color-ice: #06B6D4;
+    --type-bg-ice: rgba(6, 182, 212, 0.12);
+    --type-border-ice: rgba(6, 182, 212, 0.25);
+
+    /* Fighting */
+    --type-color-fighting: #EF4444;
+    --type-bg-fighting: rgba(239, 68, 68, 0.12);
+    --type-border-fighting: rgba(239, 68, 68, 0.25);
+
+    /* Poison */
+    --type-color-poison: #8B5CF6;
+    --type-bg-poison: rgba(139, 92, 246, 0.12);
+    --type-border-poison: rgba(139, 92, 246, 0.25);
+
+    /* Ground */
+    --type-color-ground: #B45309;
+    --type-bg-ground: rgba(180, 83, 9, 0.12);
+    --type-border-ground: rgba(180, 83, 9, 0.25);
+
+    /* Flying */
+    --type-color-flying: #818CF8;
+    --type-bg-flying: rgba(129, 140, 248, 0.12);
+    --type-border-flying: rgba(129, 140, 248, 0.25);
+
+    /* Psychic */
+    --type-color-psychic: #EC4899;
+    --type-bg-psychic: rgba(236, 72, 153, 0.12);
+    --type-border-psychic: rgba(236, 72, 153, 0.25);
+
+    /* Bug */
+    --type-color-bug: #84CC16;
+    --type-bg-bug: rgba(132, 204, 22, 0.12);
+    --type-border-bug: rgba(132, 204, 22, 0.25);
+
+    /* Rock */
+    --type-color-rock: #A16207;
+    --type-bg-rock: rgba(161, 98, 7, 0.12);
+    --type-border-rock: rgba(161, 98, 7, 0.25);
+
+    /* Ghost */
+    --type-color-ghost: #6366F1;
+    --type-bg-ghost: rgba(99, 102, 241, 0.12);
+    --type-border-ghost: rgba(99, 102, 241, 0.25);
+
+    /* Dragon */
+    --type-color-dragon: #7C3AED;
+    --type-bg-dragon: rgba(124, 58, 237, 0.12);
+    --type-border-dragon: rgba(124, 58, 237, 0.25);
+
+    /* Dark */
+    --type-color-dark: #374151;
+    --type-bg-dark: rgba(55, 65, 81, 0.12);
+    --type-border-dark: rgba(55, 65, 81, 0.25);
+
+    /* Steel */
+    --type-color-steel: #64748B;
+    --type-bg-steel: rgba(100, 116, 139, 0.12);
+    --type-border-steel: rgba(100, 116, 139, 0.25);
+
+    /* Fairy */
+    --type-color-fairy: #ED64A6;
+    --type-bg-fairy: rgba(237, 100, 166, 0.12);
+    --type-border-fairy: rgba(237, 100, 166, 0.25);
+}
+
+/* Custom utility classes missing in Bootstrap v4.0.0 */
+.min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+img.pixel-art {
+    image-rendering: pixelated;
+    /* Fallback */
+    image-rendering: crisp-edges;
+}
