@@ -1,0 +1,88 @@
+{
+  "areas": [
+    {
+      "name": "fiery-path-area",
+      "url": "https://pokeapi.co/api/v2/location-area/367/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 288,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 440,
+  "name": "fiery-path",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "ほのおのぬけみち"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "불꽃샛길"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Chemin Ardent"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Feuriger Pfad"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Senda Ígnea"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Cammino Ardente"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Fiery Path"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "炎の抜け道"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Senda Ígnea"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

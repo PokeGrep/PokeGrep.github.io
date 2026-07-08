@@ -1,0 +1,15 @@
+{
+  "id": 2267,
+  "item": {
+    "name": "tm55",
+    "url": "https://pokeapi.co/api/v2/item/359/"
+  },
+  "move": {
+    "name": "giga-impact",
+    "url": "https://pokeapi.co/api/v2/move/416/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

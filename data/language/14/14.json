@@ -1,0 +1,107 @@
+{
+  "id": 14,
+  "iso3166": "mx",
+  "iso639": "es",
+  "name": "es-419",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "ラテンアメリカスペイン語"
+    },
+    {
+      "language": {
+        "name": "ja-roma",
+        "url": "https://pokeapi.co/api/v2/language/2/"
+      },
+      "name": "Raten Amerika Supein-go"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "라틴 아메리카 스페인어"
+    },
+    {
+      "language": {
+        "name": "zh-hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "拉丁美洲西班牙文"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Espagnol latino américain"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Lateinamerikanisches Spanisch"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Español latinoamericano"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Spagnolo latinoamericano"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Latin American Spanish"
+    },
+    {
+      "language": {
+        "name": "cs",
+        "url": "https://pokeapi.co/api/v2/language/10/"
+      },
+      "name": "Latinskoamerická španělština"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "ラテンアメリカスペイン語"
+    },
+    {
+      "language": {
+        "name": "zh-hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "拉丁美洲西班牙语"
+    },
+    {
+      "language": {
+        "name": "pt-br",
+        "url": "https://pokeapi.co/api/v2/language/13/"
+      },
+      "name": "Espanhol latino americano"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Español latinoamericano"
+    }
+  ],
+  "official": true
+}

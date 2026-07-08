@@ -1,0 +1,85 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 932,
+  "location": {
+    "name": "stow-on-side",
+    "url": "https://pokeapi.co/api/v2/location/939/"
+  },
+  "name": "stow-on-side-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Stow-on-Side"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "hatenna",
+        "url": "https://pokeapi.co/api/v2/pokemon/856/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "trade-maractus",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/232/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "npc-trade",
+                "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "impidimp",
+        "url": "https://pokeapi.co/api/v2/pokemon/859/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "trade-maractus",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/232/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "npc-trade",
+                "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

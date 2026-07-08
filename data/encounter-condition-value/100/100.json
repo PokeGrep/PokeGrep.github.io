@@ -1,0 +1,24 @@
+{
+  "condition": {
+    "name": "story-progress",
+    "url": "https://pokeapi.co/api/v2/encounter-condition/9/"
+  },
+  "id": 100,
+  "name": "story-progress-finished-looker-sidequest",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Finished Looker’s Sidequest"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Avoir fini la quête secondaire de Beladonis"
+    }
+  ]
+}

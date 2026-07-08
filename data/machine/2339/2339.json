@@ -1,0 +1,15 @@
+{
+  "id": 2339,
+  "item": {
+    "name": "tm127",
+    "url": "https://pokeapi.co/api/v2/item/1970/"
+  },
+  "move": {
+    "name": "dream-eater",
+    "url": "https://pokeapi.co/api/v2/move/138/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 2372,
+  "item": {
+    "name": "tm160",
+    "url": "https://pokeapi.co/api/v2/item/2003/"
+  },
+  "move": {
+    "name": "frenzy-plant",
+    "url": "https://pokeapi.co/api/v2/move/338/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

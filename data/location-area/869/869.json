@@ -1,0 +1,85 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 869,
+  "location": {
+    "name": "circhester",
+    "url": "https://pokeapi.co/api/v2/location/886/"
+  },
+  "name": "circhester-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Circhester"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "throh",
+        "url": "https://pokeapi.co/api/v2/pokemon/538/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "trade-vanillish",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/234/"
+                }
+              ],
+              "max_level": 37,
+              "method": {
+                "name": "npc-trade",
+                "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+              },
+              "min_level": 37
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sawk",
+        "url": "https://pokeapi.co/api/v2/pokemon/539/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "trade-vanillish",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/234/"
+                }
+              ],
+              "max_level": 37,
+              "method": {
+                "name": "npc-trade",
+                "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+              },
+              "min_level": 37
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

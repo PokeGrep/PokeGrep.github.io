@@ -1,0 +1,15 @@
+{
+  "id": 2246,
+  "item": {
+    "name": "tm34",
+    "url": "https://pokeapi.co/api/v2/item/338/"
+  },
+  "move": {
+    "name": "night-slash",
+    "url": "https://pokeapi.co/api/v2/move/400/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

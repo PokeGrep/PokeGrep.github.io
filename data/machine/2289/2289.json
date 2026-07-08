@@ -1,0 +1,15 @@
+{
+  "id": 2289,
+  "item": {
+    "name": "tm77",
+    "url": "https://pokeapi.co/api/v2/item/381/"
+  },
+  "move": {
+    "name": "poison-jab",
+    "url": "https://pokeapi.co/api/v2/move/398/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

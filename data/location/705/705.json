@@ -1,0 +1,88 @@
+{
+  "areas": [
+    {
+      "name": "crescent-isle-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1189/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 344,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 705,
+  "name": "crescent-isle",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "ゆみなりのしま"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "궁형의 섬"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Île de l’Arc"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Sichelinsel"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Isla Creciente"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Isola Arcodiluna"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Crescent Isle"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "弓形の島"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Isla Creciente"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

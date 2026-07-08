@@ -1,0 +1,26 @@
+{
+  "id": 10,
+  "name": "other",
+  "names": [
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Autre"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Other"
+    }
+  ],
+  "pokemon_species": [
+    {
+      "name": "maushold",
+      "url": "https://pokeapi.co/api/v2/pokemon-species/925/"
+    }
+  ]
+}

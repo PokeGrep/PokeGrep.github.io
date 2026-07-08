@@ -1,0 +1,88 @@
+{
+  "areas": [
+    {
+      "name": "pathless-plain-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1190/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 336,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 701,
+  "name": "pathless-plain",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "なもなきへいげん"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "이름없는 평원"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Plaine Sans Nom"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Namenlose Ebene"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Llanura Sinnombre"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Piana Senza Nome"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Pathless Plain"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "名もなき平原"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Llanura Sinnombre"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

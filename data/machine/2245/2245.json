@@ -1,0 +1,15 @@
+{
+  "id": 2245,
+  "item": {
+    "name": "tm33",
+    "url": "https://pokeapi.co/api/v2/item/337/"
+  },
+  "move": {
+    "name": "body-slam",
+    "url": "https://pokeapi.co/api/v2/move/34/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 879,
+  "location": {
+    "name": "freezington",
+    "url": "https://pokeapi.co/api/v2/location/895/"
+  },
+  "name": "freezington-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Freezington"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "cosmog",
+        "url": "https://pokeapi.co/api/v2/pokemon/789/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "story-progress-save-village-from-glastrier-spectrier",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/226/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "story-progress-save-village-from-glastrier-spectrier",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/226/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "areas": [
+    {
+      "name": "petalburg-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/350/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 184,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 429,
+  "name": "petalburg-city",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "トウカシティ"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "등화도시"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Clémenti-Ville"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Blütenburg City"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Ciudad Petalia"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Petalipoli"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Petalburg City"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "トウカシティ"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Ciudad Petalia"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

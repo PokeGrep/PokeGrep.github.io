@@ -1,0 +1,259 @@
+{
+  "id": 15,
+  "name": "trade",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Trade a specific Pokemon to an NPC"
+    }
+  ],
+  "values": [
+    {
+      "name": "trade-togepi-or-togetic",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/109/"
+    },
+    {
+      "name": "trade-trapinch",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/110/"
+    },
+    {
+      "name": "trade-surskit",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/111/"
+    },
+    {
+      "name": "trade-wooper",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/112/"
+    },
+    {
+      "name": "trade-abra",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/145/"
+    },
+    {
+      "name": "trade-nidoran-m",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/146/"
+    },
+    {
+      "name": "trade-nidorino",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/147/"
+    },
+    {
+      "name": "trade-slowbro",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/148/"
+    },
+    {
+      "name": "trade-poliwhirl",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/149/"
+    },
+    {
+      "name": "trade-spearow",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/150/"
+    },
+    {
+      "name": "trade-raichu",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/151/"
+    },
+    {
+      "name": "trade-venonat",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/152/"
+    },
+    {
+      "name": "trade-ponyta",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/153/"
+    },
+    {
+      "name": "trade-clefairy",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/154/"
+    },
+    {
+      "name": "trade-cubone",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/155/"
+    },
+    {
+      "name": "trade-lickitung",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/156/"
+    },
+    {
+      "name": "trade-tangela",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/157/"
+    },
+    {
+      "name": "trade-golduck",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/158/"
+    },
+    {
+      "name": "trade-growlithe",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/159/"
+    },
+    {
+      "name": "trade-kangaskhan",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/160/"
+    },
+    {
+      "name": "trade-bellsprout",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/161/"
+    },
+    {
+      "name": "trade-drowzee",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/162/"
+    },
+    {
+      "name": "trade-krabby",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/163/"
+    },
+    {
+      "name": "trade-dragonair",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/164/"
+    },
+    {
+      "name": "trade-chansey",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/165/"
+    },
+    {
+      "name": "trade-gloom",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/166/"
+    },
+    {
+      "name": "trade-haunter",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/167/"
+    },
+    {
+      "name": "trade-dugtrio",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/168/"
+    },
+    {
+      "name": "trade-slakoth",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/169/"
+    },
+    {
+      "name": "trade-pikachu",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/170/"
+    },
+    {
+      "name": "trade-bellossom",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/171/"
+    },
+    {
+      "name": "trade-ralts",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/172/"
+    },
+    {
+      "name": "trade-volbeat",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/173/"
+    },
+    {
+      "name": "trade-bagon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/174/"
+    },
+    {
+      "name": "trade-skitty",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/175/"
+    },
+    {
+      "name": "trade-cottonee",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/195/"
+    },
+    {
+      "name": "trade-petilil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/196/"
+    },
+    {
+      "name": "trade-emolga",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/197/"
+    },
+    {
+      "name": "trade-mantine",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/198/"
+    },
+    {
+      "name": "trade-ditto",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/199/"
+    },
+    {
+      "name": "trade-excadrill",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/200/"
+    },
+    {
+      "name": "trade-hippowdon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/201/"
+    },
+    {
+      "name": "trade-bunnelby",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/228/"
+    },
+    {
+      "name": "trade-meowth-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/229/"
+    },
+    {
+      "name": "trade-minccino",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/230/"
+    },
+    {
+      "name": "trade-toxel",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/231/"
+    },
+    {
+      "name": "trade-maractus",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/232/"
+    },
+    {
+      "name": "trade-yamask-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/233/"
+    },
+    {
+      "name": "trade-vanillish",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/234/"
+    },
+    {
+      "name": "trade-obstagoon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/235/"
+    },
+    {
+      "name": "trade-frosmoth",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/236/"
+    },
+    {
+      "name": "trade-farfetchd-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/237/"
+    },
+    {
+      "name": "trade-corsola-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/238/"
+    },
+    {
+      "name": "trade-ponyta-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/239/"
+    },
+    {
+      "name": "trade-mr-mime-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/240/"
+    },
+    {
+      "name": "trade-darumaka-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/241/"
+    },
+    {
+      "name": "trade-zigzagoon-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/242/"
+    },
+    {
+      "name": "trade-stunfisk-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/243/"
+    },
+    {
+      "name": "trade-weezing-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/244/"
+    },
+    {
+      "name": "trade-exeggutor",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/245/"
+    },
+    {
+      "name": "trade-marowak",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/246/"
+    }
+  ]
+}

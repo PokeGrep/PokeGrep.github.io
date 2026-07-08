@@ -1,0 +1,15 @@
+{
+  "id": 2300,
+  "item": {
+    "name": "tm88",
+    "url": "https://pokeapi.co/api/v2/item/392/"
+  },
+  "move": {
+    "name": "spikes",
+    "url": "https://pokeapi.co/api/v2/move/191/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

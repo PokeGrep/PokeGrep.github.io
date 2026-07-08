@@ -1,0 +1,59 @@
+{
+  "affecting_natures": {
+    "decrease": [],
+    "increase": []
+  },
+  "id": 4,
+  "name": "stamina",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "スタミナ"
+    },
+    {
+      "language": {
+        "name": "zh-hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "耐力"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Endurance"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Firmeza"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Stamina"
+    },
+    {
+      "language": {
+        "name": "zh-hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "耐力"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Firmeza"
+    }
+  ]
+}

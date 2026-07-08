@@ -1,0 +1,38 @@
+{
+  "areas": [],
+  "game_indices": [
+    {
+      "game_index": 3052,
+      "generation": {
+        "name": "generation-iv",
+        "url": "https://pokeapi.co/api/v2/generation/4/"
+      }
+    }
+  ],
+  "id": 317,
+  "name": "pokemon-center",
+  "names": [
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Centre Pokémon"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Pokémon-Center"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Pokémon Center"
+    }
+  ],
+  "region": null
+}

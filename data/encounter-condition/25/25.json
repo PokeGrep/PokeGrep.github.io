@@ -1,0 +1,51 @@
+{
+  "id": 25,
+  "name": "weather",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "During specific weather conditions like sun, rain, or snow"
+    }
+  ],
+  "values": [
+    {
+      "name": "weather-normal",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+    },
+    {
+      "name": "weather-overcast",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+    },
+    {
+      "name": "weather-raining",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/249/"
+    },
+    {
+      "name": "weather-thunderstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/250/"
+    },
+    {
+      "name": "weather-snowing",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/251/"
+    },
+    {
+      "name": "weather-snowstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/252/"
+    },
+    {
+      "name": "weather-sandstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/253/"
+    },
+    {
+      "name": "weather-intense-sun",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/254/"
+    },
+    {
+      "name": "weather-fog",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+    }
+  ]
+}

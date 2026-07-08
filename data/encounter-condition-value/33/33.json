@@ -1,0 +1,24 @@
+{
+  "condition": {
+    "name": "story-progress",
+    "url": "https://pokeapi.co/api/v2/encounter-condition/9/"
+  },
+  "id": 33,
+  "name": "story-progress-met-tornadus-thundurus",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Met Tornadus or Thundurus in a cutscene"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Après avoir rencontré Boréas ou Fulguris lors d’une cinématique"
+    }
+  ]
+}

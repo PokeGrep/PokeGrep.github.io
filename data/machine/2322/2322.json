@@ -1,0 +1,15 @@
+{
+  "id": 2322,
+  "item": {
+    "name": "tm110",
+    "url": "https://pokeapi.co/api/v2/item/1953/"
+  },
+  "move": {
+    "name": "chilling-water",
+    "url": "https://pokeapi.co/api/v2/move/886/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

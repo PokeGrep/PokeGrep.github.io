@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "name": "stat-boosts",
+      "url": "https://pokeapi.co/api/v2/item-category/1/"
+    },
+    {
+      "name": "flutes",
+      "url": "https://pokeapi.co/api/v2/item-category/38/"
+    },
+    {
+      "name": "miracle-shooter",
+      "url": "https://pokeapi.co/api/v2/item-category/43/"
+    }
+  ],
+  "id": 7,
+  "name": "battle",
+  "names": [
+    {
+      "language": {
+        "name": "zh-hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "戰鬥道具"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Objets de combat"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Objetos de combate"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Battle Items"
+    },
+    {
+      "language": {
+        "name": "zh-hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "战斗道具"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Objetos de combate"
+    }
+  ]
+}

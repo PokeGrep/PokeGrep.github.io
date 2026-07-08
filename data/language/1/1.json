@@ -1,0 +1,72 @@
+{
+  "id": 1,
+  "iso3166": "jp",
+  "iso639": "ja",
+  "name": "ja-hrkt",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "日本語 (仮名)"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "일본어 히라가나와 가타카나"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Japonais Hiragana et Katakana"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Japanisch Hiragana und Katakana"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Japonés Hiragana y Katakana"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Giapponese Hiragana e Katakana"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Japanese Hiragana and Katakana"
+    },
+    {
+      "language": {
+        "name": "pt-br",
+        "url": "https://pokeapi.co/api/v2/language/13/"
+      },
+      "name": "Japonês em Hiragana e Katakana"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Japonés Hiragana y Katakana"
+    }
+  ],
+  "official": true
+}

@@ -1,0 +1,104 @@
+{
+  "areas": [
+    {
+      "name": "shoal-cave-high-tide",
+      "url": "https://pokeapi.co/api/v2/location-area/385/"
+    },
+    {
+      "name": "shoal-cave-b1f",
+      "url": "https://pokeapi.co/api/v2/location-area/386/"
+    },
+    {
+      "name": "shoal-cave-low-tide",
+      "url": "https://pokeapi.co/api/v2/location-area/1204/"
+    },
+    {
+      "name": "shoal-cave-b2f",
+      "url": "https://pokeapi.co/api/v2/location-area/1205/"
+    },
+    {
+      "name": "shoal-cave-b3f",
+      "url": "https://pokeapi.co/api/v2/location-area/1206/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 300,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 445,
+  "name": "shoal-cave",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "あさせのほらあな"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "여울의 동굴"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Grotte Tréfonds"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Küstenhöhle"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Cueva Cardumen"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Grotta Ondosa"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Shoal Cave"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "浅瀬の洞穴"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Cueva Cardumen"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

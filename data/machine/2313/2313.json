@@ -1,0 +1,15 @@
+{
+  "id": 2313,
+  "item": {
+    "name": "tm101",
+    "url": "https://pokeapi.co/api/v2/item/1944/"
+  },
+  "move": {
+    "name": "electroweb",
+    "url": "https://pokeapi.co/api/v2/move/527/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

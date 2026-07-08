@@ -1,0 +1,116 @@
+{
+  "areas": [
+    {
+      "name": "mirage-spot-mountain-east-of-mossdeep",
+      "url": "https://pokeapi.co/api/v2/location-area/1313/"
+    },
+    {
+      "name": "mirage-spot-mountain-north-of-mossdeep",
+      "url": "https://pokeapi.co/api/v2/location-area/1314/"
+    },
+    {
+      "name": "mirage-spot-mountain-south-east-of-route-129",
+      "url": "https://pokeapi.co/api/v2/location-area/1315/"
+    },
+    {
+      "name": "mirage-spot-mountain-north-of-lilycove",
+      "url": "https://pokeapi.co/api/v2/location-area/1316/"
+    },
+    {
+      "name": "mirage-spot-mountain-west-of-route-104",
+      "url": "https://pokeapi.co/api/v2/location-area/1317/"
+    },
+    {
+      "name": "mirage-spot-mountain-south-of-route-129",
+      "url": "https://pokeapi.co/api/v2/location-area/1318/"
+    },
+    {
+      "name": "mirage-spot-mountain-south-of-route-131",
+      "url": "https://pokeapi.co/api/v2/location-area/1319/"
+    },
+    {
+      "name": "mirage-spot-mountain-north-east-of-route-125",
+      "url": "https://pokeapi.co/api/v2/location-area/1320/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 332,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 699,
+  "name": "mirage-spot-mountain",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "マボロシやま"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "환상산"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Mont Mirage"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Wunderberg"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Monte Espejismo"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Monte Miraggio"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Mirage Mountain"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "マボロシ山"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Monte Espejismo"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

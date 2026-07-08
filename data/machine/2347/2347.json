@@ -1,0 +1,15 @@
+{
+  "id": 2347,
+  "item": {
+    "name": "tm135",
+    "url": "https://pokeapi.co/api/v2/item/1978/"
+  },
+  "move": {
+    "name": "dual-chop",
+    "url": "https://pokeapi.co/api/v2/move/530/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

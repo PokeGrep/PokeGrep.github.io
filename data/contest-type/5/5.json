@@ -1,0 +1,50 @@
+{
+  "berry_flavor": {
+    "name": "sour",
+    "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+  },
+  "id": 5,
+  "name": "tough",
+  "names": [
+    {
+      "color": "",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "たくましさ"
+    },
+    {
+      "color": "黃",
+      "language": {
+        "name": "zh-hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "強壯"
+    },
+    {
+      "color": "Jaune",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Robustesse"
+    },
+    {
+      "color": "Yellow",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Tough"
+    },
+    {
+      "color": "黄",
+      "language": {
+        "name": "zh-hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "强壮"
+    }
+  ]
+}

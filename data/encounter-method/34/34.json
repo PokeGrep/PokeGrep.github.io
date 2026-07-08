@@ -1,0 +1,14 @@
+{
+  "id": 34,
+  "name": "bubbling-spots",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Fishing at bubbling spots in the water"
+    }
+  ],
+  "order": 34
+}

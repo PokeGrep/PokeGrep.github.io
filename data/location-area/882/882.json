@@ -1,0 +1,363 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 882,
+  "location": {
+    "name": "galar-mine",
+    "url": "https://pokeapi.co/api/v2/location/898/"
+  },
+  "name": "galar-mine-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Galar Mine"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "diglett",
+        "url": "https://pokeapi.co/api/v2/pokemon/50/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "roggenrola",
+        "url": "https://pokeapi.co/api/v2/pokemon/524/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 25,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 25,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "woobat",
+        "url": "https://pokeapi.co/api/v2/pokemon/527/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            },
+            {
+              "chance": 100,
+              "condition_values": [],
+              "max_level": 16,
+              "method": {
+                "name": "overworld-special",
+                "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+              },
+              "min_level": 16
+            }
+          ],
+          "max_chance": 115,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            },
+            {
+              "chance": 100,
+              "condition_values": [],
+              "max_level": 16,
+              "method": {
+                "name": "overworld-special",
+                "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+              },
+              "min_level": 16
+            }
+          ],
+          "max_chance": 115,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "drilbur",
+        "url": "https://pokeapi.co/api/v2/pokemon/529/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "timburr",
+        "url": "https://pokeapi.co/api/v2/pokemon/532/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 25,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 25,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "rolycoly",
+        "url": "https://pokeapi.co/api/v2/pokemon/837/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 35,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 35,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 35,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "overworld",
+                "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+              },
+              "min_level": 11
+            }
+          ],
+          "max_chance": 35,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "carkol",
+        "url": "https://pokeapi.co/api/v2/pokemon/838/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [],
+              "max_level": 18,
+              "method": {
+                "name": "overworld-special",
+                "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+              },
+              "min_level": 18
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [],
+              "max_level": 18,
+              "method": {
+                "name": "overworld-special",
+                "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+              },
+              "min_level": 18
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

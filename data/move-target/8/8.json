@@ -1,0 +1,76 @@
+{
+  "descriptions": [
+    {
+      "description": "Un Pokémon adverse, choisi au hasard.",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "description": "Ein zufälliges gegnerische Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      }
+    },
+    {
+      "description": "One opposing Pokémon, selected at random.",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    }
+  ],
+  "id": 8,
+  "moves": [
+    {
+      "name": "thrash",
+      "url": "https://pokeapi.co/api/v2/move/37/"
+    },
+    {
+      "name": "petal-dance",
+      "url": "https://pokeapi.co/api/v2/move/80/"
+    },
+    {
+      "name": "struggle",
+      "url": "https://pokeapi.co/api/v2/move/165/"
+    },
+    {
+      "name": "outrage",
+      "url": "https://pokeapi.co/api/v2/move/200/"
+    },
+    {
+      "name": "uproar",
+      "url": "https://pokeapi.co/api/v2/move/253/"
+    },
+    {
+      "name": "raging-fury",
+      "url": "https://pokeapi.co/api/v2/move/833/"
+    }
+  ],
+  "name": "random-opponent",
+  "names": [
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Adversaire aléatoire"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Zufälliger Gegner"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Random opponent"
+    }
+  ]
+}

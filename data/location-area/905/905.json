@@ -1,0 +1,77 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 905,
+  "location": {
+    "name": "max-lair",
+    "url": "https://pokeapi.co/api/v2/location/917/"
+  },
+  "name": "max-lair-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Max Lair"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "poipole",
+        "url": "https://pokeapi.co/api/v2/pokemon/803/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "story-progress-catch-five-ultra-beasts",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/227/"
+                }
+              ],
+              "max_level": 20,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 20
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "story-progress-catch-five-ultra-beasts",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/227/"
+                }
+              ],
+              "max_level": 20,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 20
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

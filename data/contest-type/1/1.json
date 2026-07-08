@@ -1,0 +1,50 @@
+{
+  "berry_flavor": {
+    "name": "spicy",
+    "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+  },
+  "id": 1,
+  "name": "cool",
+  "names": [
+    {
+      "color": "",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "かっこよさ"
+    },
+    {
+      "color": "紅",
+      "language": {
+        "name": "zh-hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "帥氣"
+    },
+    {
+      "color": "Rouge",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Sang-froid"
+    },
+    {
+      "color": "Red",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Cool"
+    },
+    {
+      "color": "红",
+      "language": {
+        "name": "zh-hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "帅气"
+    }
+  ]
+}

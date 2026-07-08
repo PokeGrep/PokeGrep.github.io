@@ -1,0 +1,37 @@
+{
+  "appeal": 3,
+  "effect_entries": [
+    {
+      "effect": "Mélange les ordres de passage au tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Shuffles the next turn’s turn order.",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Change l’ordre de passage au tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "flavor_text": "Scrambles up the order of appeals on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    }
+  ],
+  "id": 21,
+  "jam": 0
+}

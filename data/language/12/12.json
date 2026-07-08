@@ -1,0 +1,44 @@
+{
+  "id": 12,
+  "iso3166": "cn",
+  "iso639": "zh",
+  "name": "zh-hans",
+  "names": [
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Chino simplificado"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Cinese semplificato"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Simplified chinese"
+    },
+    {
+      "language": {
+        "name": "pt-br",
+        "url": "https://pokeapi.co/api/v2/language/13/"
+      },
+      "name": "Chinês simplificado"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Chino simplificado"
+    }
+  ],
+  "official": true
+}

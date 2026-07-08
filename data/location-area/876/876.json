@@ -1,0 +1,661 @@
+{
+  "encounter_method_rates": [],
+  "game_index": 0,
+  "id": 876,
+  "location": {
+    "name": "fields-of-honor",
+    "url": "https://pokeapi.co/api/v2/location/893/"
+  },
+  "name": "fields-of-honor-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Fields of Honor"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "slowpoke",
+        "url": "https://pokeapi.co/api/v2/pokemon/79/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-10",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/215/"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-10",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/215/"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "rowlet",
+        "url": "https://pokeapi.co/api/v2/pokemon/722/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-grookey",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/223/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-grookey",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/223/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "litten",
+        "url": "https://pokeapi.co/api/v2/pokemon/725/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-scorbunny",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/224/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-scorbunny",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/224/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "popplio",
+        "url": "https://pokeapi.co/api/v2/pokemon/728/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-sobble",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/225/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-100",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+                },
+                {
+                  "name": "starter-sobble",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/225/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "raichu-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10100/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-40",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/218/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-40",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/218/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sandshrew-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10101/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-30",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-30",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "vulpix-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10103/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-20",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/216/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-20",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/216/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "diglett-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10105/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-150",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/222/"
+                }
+              ],
+              "max_level": 20,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 20
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-150",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/222/"
+                }
+              ],
+              "max_level": 20,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 20
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "meowth-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10107/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-5",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/214/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-5",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/214/"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "exeggutor-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10114/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-75",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-75",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "marowak-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/10115/"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-50",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/219/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "sword",
+            "url": "https://pokeapi.co/api/v2/version/33/"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 100,
+              "condition_values": [
+                {
+                  "name": "alolan-diglett-found-50",
+                  "url": "https://pokeapi.co/api/v2/encounter-condition-value/219/"
+                }
+              ],
+              "max_level": 30,
+              "method": {
+                "name": "gift",
+                "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+              },
+              "min_level": 30
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "shield",
+            "url": "https://pokeapi.co/api/v2/version/34/"
+          }
+        }
+      ]
+    }
+  ]
+}

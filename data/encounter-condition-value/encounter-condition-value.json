@@ -1,0 +1,1031 @@
+{
+  "count": 256,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "swarm-yes",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/1/"
+    },
+    {
+      "name": "swarm-no",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/2/"
+    },
+    {
+      "name": "time-morning",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/3/"
+    },
+    {
+      "name": "time-day",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/4/"
+    },
+    {
+      "name": "time-night",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/5/"
+    },
+    {
+      "name": "radar-on",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/6/"
+    },
+    {
+      "name": "radar-off",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/7/"
+    },
+    {
+      "name": "slot2-none",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/8/"
+    },
+    {
+      "name": "slot2-ruby",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/9/"
+    },
+    {
+      "name": "slot2-sapphire",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/10/"
+    },
+    {
+      "name": "slot2-emerald",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/11/"
+    },
+    {
+      "name": "slot2-firered",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/12/"
+    },
+    {
+      "name": "slot2-leafgreen",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/13/"
+    },
+    {
+      "name": "radio-off",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/14/"
+    },
+    {
+      "name": "radio-hoenn",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/15/"
+    },
+    {
+      "name": "radio-sinnoh",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/16/"
+    },
+    {
+      "name": "season-spring",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/17/"
+    },
+    {
+      "name": "season-summer",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/18/"
+    },
+    {
+      "name": "season-autumn",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/19/"
+    },
+    {
+      "name": "season-winter",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/20/"
+    },
+    {
+      "name": "starter-bulbasaur",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/21/"
+    },
+    {
+      "name": "starter-squirtle",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/22/"
+    },
+    {
+      "name": "starter-charmander",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/23/"
+    },
+    {
+      "name": "starter-chespin",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/24/"
+    },
+    {
+      "name": "starter-fennekin",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/25/"
+    },
+    {
+      "name": "starter-froakie",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/26/"
+    },
+    {
+      "name": "tv-option-blue",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/27/"
+    },
+    {
+      "name": "tv-option-red",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/28/"
+    },
+    {
+      "name": "story-progress-awakened-beasts",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/29/"
+    },
+    {
+      "name": "story-progress-beat-galactic-coronet",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/30/"
+    },
+    {
+      "name": "story-progress-oak-eterna-city",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/31/"
+    },
+    {
+      "name": "story-progress-vermilion-copycat",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/32/"
+    },
+    {
+      "name": "story-progress-met-tornadus-thundurus",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/33/"
+    },
+    {
+      "name": "story-progress-beat-elite-four-round-two",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/34/"
+    },
+    {
+      "name": "story-progress-hall-of-fame",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+    },
+    {
+      "name": "story-progress-none",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/36/"
+    },
+    {
+      "name": "story-progress-national-dex",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/37/"
+    },
+    {
+      "name": "other-none",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/38/"
+    },
+    {
+      "name": "other-snorlax-11-beat-league",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/39/"
+    },
+    {
+      "name": "other-virtual-console",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/40/"
+    },
+    {
+      "name": "story-progress-cure-eldritch-nightmares",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/41/"
+    },
+    {
+      "name": "other-talk-to-cynthias-grandmother",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/42/"
+    },
+    {
+      "name": "item-none",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/43/"
+    },
+    {
+      "name": "item-adamant-orb",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/44/"
+    },
+    {
+      "name": "item-lustrous-orb",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/45/"
+    },
+    {
+      "name": "item-helix-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/46/"
+    },
+    {
+      "name": "item-dome-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/47/"
+    },
+    {
+      "name": "item-old-amber",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/48/"
+    },
+    {
+      "name": "item-root-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/49/"
+    },
+    {
+      "name": "item-claw-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/50/"
+    },
+    {
+      "name": "story-progress-defeat-jupiter",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/51/"
+    },
+    {
+      "name": "story-progress-beat-team-galactic-iron-island",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/52/"
+    },
+    {
+      "name": "other-correct-password",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/53/"
+    },
+    {
+      "name": "story-progress-zephyr-badge",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/54/"
+    },
+    {
+      "name": "story-progress-beat-red",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/55/"
+    },
+    {
+      "name": "other-received-kanto-starter",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/56/"
+    },
+    {
+      "name": "story-progress-receive-tm-from-claire",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/57/"
+    },
+    {
+      "name": "other-regirock-regice-registeel-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/58/"
+    },
+    {
+      "name": "weekday-sunday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/59/"
+    },
+    {
+      "name": "weekday-monday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/60/"
+    },
+    {
+      "name": "weekday-tuesday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/61/"
+    },
+    {
+      "name": "weekday-wednesday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/62/"
+    },
+    {
+      "name": "weekday-thursday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/63/"
+    },
+    {
+      "name": "weekday-friday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/64/"
+    },
+    {
+      "name": "weekday-saturday",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/65/"
+    },
+    {
+      "name": "first-party-pokemon-high-friendship",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/66/"
+    },
+    {
+      "name": "story-progress-defeat-mars",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/67/"
+    },
+    {
+      "name": "item-odd-keystone",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/68/"
+    },
+    {
+      "name": "other-talked-to-32-people-underground",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/69/"
+    },
+    {
+      "name": "story-progress-returned-machine-part",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/70/"
+    },
+    {
+      "name": "other-event-arceus-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/71/"
+    },
+    {
+      "name": "special-encounter-couldnt-capture-before",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/72/"
+    },
+    {
+      "name": "item-ice-key",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/73/"
+    },
+    {
+      "name": "item-iron-key",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/74/"
+    },
+    {
+      "name": "story-progress-juniper-cave-of-being",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/75/"
+    },
+    {
+      "name": "item-lunar-wing",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/76/"
+    },
+    {
+      "name": "story-progress-quake-badge",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/77/"
+    },
+    {
+      "name": "item-light-stone",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/78/"
+    },
+    {
+      "name": "item-dark-stone",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/79/"
+    },
+    {
+      "name": "other-captured-reshiram-or-zekrom",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/80/"
+    },
+    {
+      "name": "defeated-ghetsis",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/81/"
+    },
+    {
+      "name": "other-found-11-times-roaming",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/82/"
+    },
+    {
+      "name": "time-minute-00-to-19",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/83/"
+    },
+    {
+      "name": "time-minute-20-to-39",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/84/"
+    },
+    {
+      "name": "time-minute-40-to-59",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/85/"
+    },
+    {
+      "name": "time-04-00-to-19-59",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/86/"
+    },
+    {
+      "name": "time-20-00-to-21-59",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/87/"
+    },
+    {
+      "name": "time-21-00-to-03-59",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/88/"
+    },
+    {
+      "name": "item-tidal-bell",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/89/"
+    },
+    {
+      "name": "item-clear-bell",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/90/"
+    },
+    {
+      "name": "story-progress-defeated-groudon-or-kyogre",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/91/"
+    },
+    {
+      "name": "other-uxie-mesprit-azelf-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/92/"
+    },
+    {
+      "name": "other-nicknamed-cold-item-regice-regirock-registeel3",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/93/"
+    },
+    {
+      "name": "other-dialga-or-palkia-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/94/"
+    },
+    {
+      "name": "other-castform-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/95/"
+    },
+    {
+      "name": "other-level-100-pokemon-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/96/"
+    },
+    {
+      "name": "other-tornadus-thundurus-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/97/"
+    },
+    {
+      "name": "other-reshiram-zekrom-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/98/"
+    },
+    {
+      "name": "other-captured-all-ultra-beasts",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/99/"
+    },
+    {
+      "name": "story-progress-finished-looker-sidequest",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/100/"
+    },
+    {
+      "name": "story-progress-beat-olivias-trial",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/101/"
+    },
+    {
+      "name": "other-raikou-entei-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/102/"
+    },
+    {
+      "name": "other-groudon-kyogre-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/103/"
+    },
+    {
+      "name": "other-dialga-palkia-in-party",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/104/"
+    },
+    {
+      "name": "other-scan-qr-code",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/105/"
+    },
+    {
+      "name": "other-caught-articuno",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/106/"
+    },
+    {
+      "name": "other-caught-zapdos",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/107/"
+    },
+    {
+      "name": "other-caught-moltres",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/108/"
+    },
+    {
+      "name": "trade-togepi-or-togetic",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/109/"
+    },
+    {
+      "name": "trade-trapinch",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/110/"
+    },
+    {
+      "name": "trade-surskit",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/111/"
+    },
+    {
+      "name": "trade-wooper",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/112/"
+    },
+    {
+      "name": "story-progress-catch-all-shadow-pokemon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/113/"
+    },
+    {
+      "name": "other-complete-mt-battle",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/114/"
+    },
+    {
+      "name": "coins-180",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/115/"
+    },
+    {
+      "name": "coins-500",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/116/"
+    },
+    {
+      "name": "coins-1200",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/117/"
+    },
+    {
+      "name": "coins-2800",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/118/"
+    },
+    {
+      "name": "coins-5500",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/119/"
+    },
+    {
+      "name": "coins-9999",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/120/"
+    },
+    {
+      "name": "coins-120",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/121/"
+    },
+    {
+      "name": "coins-750",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/122/"
+    },
+    {
+      "name": "coins-2500",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/123/"
+    },
+    {
+      "name": "coins-4600",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/124/"
+    },
+    {
+      "name": "coins-6500",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/125/"
+    },
+    {
+      "name": "coins-230",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/126/"
+    },
+    {
+      "name": "coins-1000",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/127/"
+    },
+    {
+      "name": "coins-2680",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/128/"
+    },
+    {
+      "name": "coins-3333",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/129/"
+    },
+    {
+      "name": "coins-6666",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/130/"
+    },
+    {
+      "name": "coins-200",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/131/"
+    },
+    {
+      "name": "coins-700",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/132/"
+    },
+    {
+      "name": "coins-2100",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/133/"
+    },
+    {
+      "name": "coins-100",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/134/"
+    },
+    {
+      "name": "coins-800",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/135/"
+    },
+    {
+      "name": "coins-1500",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/136/"
+    },
+    {
+      "name": "coins-2222",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/137/"
+    },
+    {
+      "name": "coins-5555",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/138/"
+    },
+    {
+      "name": "coins-8888",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/139/"
+    },
+    {
+      "name": "coins-150",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/140/"
+    },
+    {
+      "name": "coins-620",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/141/"
+    },
+    {
+      "name": "coins-2880",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/142/"
+    },
+    {
+      "name": "coins-5400",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/143/"
+    },
+    {
+      "name": "coins-8300",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/144/"
+    },
+    {
+      "name": "trade-abra",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/145/"
+    },
+    {
+      "name": "trade-nidoran-m",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/146/"
+    },
+    {
+      "name": "trade-nidorino",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/147/"
+    },
+    {
+      "name": "trade-slowbro",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/148/"
+    },
+    {
+      "name": "trade-poliwhirl",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/149/"
+    },
+    {
+      "name": "trade-spearow",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/150/"
+    },
+    {
+      "name": "trade-raichu",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/151/"
+    },
+    {
+      "name": "trade-venonat",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/152/"
+    },
+    {
+      "name": "trade-ponyta",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/153/"
+    },
+    {
+      "name": "trade-clefairy",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/154/"
+    },
+    {
+      "name": "trade-cubone",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/155/"
+    },
+    {
+      "name": "trade-lickitung",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/156/"
+    },
+    {
+      "name": "trade-tangela",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/157/"
+    },
+    {
+      "name": "trade-golduck",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/158/"
+    },
+    {
+      "name": "trade-growlithe",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/159/"
+    },
+    {
+      "name": "trade-kangaskhan",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/160/"
+    },
+    {
+      "name": "trade-bellsprout",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/161/"
+    },
+    {
+      "name": "trade-drowzee",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/162/"
+    },
+    {
+      "name": "trade-krabby",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/163/"
+    },
+    {
+      "name": "trade-dragonair",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/164/"
+    },
+    {
+      "name": "trade-chansey",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/165/"
+    },
+    {
+      "name": "trade-gloom",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/166/"
+    },
+    {
+      "name": "trade-haunter",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/167/"
+    },
+    {
+      "name": "trade-dugtrio",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/168/"
+    },
+    {
+      "name": "trade-slakoth",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/169/"
+    },
+    {
+      "name": "trade-pikachu",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/170/"
+    },
+    {
+      "name": "trade-bellossom",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/171/"
+    },
+    {
+      "name": "trade-ralts",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/172/"
+    },
+    {
+      "name": "trade-volbeat",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/173/"
+    },
+    {
+      "name": "trade-bagon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/174/"
+    },
+    {
+      "name": "trade-skitty",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/175/"
+    },
+    {
+      "name": "friend-safari-slot-1",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/176/"
+    },
+    {
+      "name": "friend-safari-slot-2",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/177/"
+    },
+    {
+      "name": "friend-safari-slot-3",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/178/"
+    },
+    {
+      "name": "item-skull-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/179/"
+    },
+    {
+      "name": "item-armor-fossil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/180/"
+    },
+    {
+      "name": "great-marsh-daily-slot-none",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/181/"
+    },
+    {
+      "name": "great-marsh-daily-slot-1-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/182/"
+    },
+    {
+      "name": "great-marsh-daily-slot-2-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/183/"
+    },
+    {
+      "name": "great-marsh-daily-slot-3-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/184/"
+    },
+    {
+      "name": "great-marsh-daily-slot-5-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/185/"
+    },
+    {
+      "name": "story-progress-before-national-dex",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/186/"
+    },
+    {
+      "name": "great-marsh-daily-slot-4-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/187/"
+    },
+    {
+      "name": "great-marsh-daily-slot-15-of-32",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/188/"
+    },
+    {
+      "name": "honey-tree-group-a",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/189/"
+    },
+    {
+      "name": "honey-tree-group-b",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/190/"
+    },
+    {
+      "name": "honey-tree-group-c",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/191/"
+    },
+    {
+      "name": "headbutt-tree-common",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/192/"
+    },
+    {
+      "name": "headbutt-tree-rare",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/193/"
+    },
+    {
+      "name": "headbutt-tree-secret",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+    },
+    {
+      "name": "trade-cottonee",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/195/"
+    },
+    {
+      "name": "trade-petilil",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/196/"
+    },
+    {
+      "name": "trade-emolga",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/197/"
+    },
+    {
+      "name": "trade-mantine",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/198/"
+    },
+    {
+      "name": "trade-ditto",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/199/"
+    },
+    {
+      "name": "trade-excadrill",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/200/"
+    },
+    {
+      "name": "trade-hippowdon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/201/"
+    },
+    {
+      "name": "backlot-not-mentioned",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/202/"
+    },
+    {
+      "name": "backlot-mentioned",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/203/"
+    },
+    {
+      "name": "bug-catching-contest-no",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/204/"
+    },
+    {
+      "name": "bug-catching-contest-yes",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/205/"
+    },
+    {
+      "name": "save-data-from-lets-go-pikachu",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/206/"
+    },
+    {
+      "name": "save-data-from-lets-go-eevee",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/207/"
+    },
+    {
+      "name": "item-fossilized-bird",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/208/"
+    },
+    {
+      "name": "item-fossilized-drake",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/209/"
+    },
+    {
+      "name": "item-fossilized-dino",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/210/"
+    },
+    {
+      "name": "item-fossilized-fish",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/211/"
+    },
+    {
+      "name": "story-progress-master-dojo-complete-first-trial",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/212/"
+    },
+    {
+      "name": "story-progress-master-dojo-complete-third-trial",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/213/"
+    },
+    {
+      "name": "alolan-diglett-found-5",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/214/"
+    },
+    {
+      "name": "alolan-diglett-found-10",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/215/"
+    },
+    {
+      "name": "alolan-diglett-found-20",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/216/"
+    },
+    {
+      "name": "alolan-diglett-found-30",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+    },
+    {
+      "name": "alolan-diglett-found-40",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/218/"
+    },
+    {
+      "name": "alolan-diglett-found-50",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/219/"
+    },
+    {
+      "name": "alolan-diglett-found-75",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+    },
+    {
+      "name": "alolan-diglett-found-100",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+    },
+    {
+      "name": "alolan-diglett-found-150",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/222/"
+    },
+    {
+      "name": "starter-grookey",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/223/"
+    },
+    {
+      "name": "starter-scorbunny",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/224/"
+    },
+    {
+      "name": "starter-sobble",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/225/"
+    },
+    {
+      "name": "story-progress-save-village-from-glastrier-spectrier",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/226/"
+    },
+    {
+      "name": "story-progress-catch-five-ultra-beasts",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/227/"
+    },
+    {
+      "name": "trade-bunnelby",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/228/"
+    },
+    {
+      "name": "trade-meowth-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/229/"
+    },
+    {
+      "name": "trade-minccino",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/230/"
+    },
+    {
+      "name": "trade-toxel",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/231/"
+    },
+    {
+      "name": "trade-maractus",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/232/"
+    },
+    {
+      "name": "trade-yamask-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/233/"
+    },
+    {
+      "name": "trade-vanillish",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/234/"
+    },
+    {
+      "name": "trade-obstagoon",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/235/"
+    },
+    {
+      "name": "trade-frosmoth",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/236/"
+    },
+    {
+      "name": "trade-farfetchd-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/237/"
+    },
+    {
+      "name": "trade-corsola-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/238/"
+    },
+    {
+      "name": "trade-ponyta-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/239/"
+    },
+    {
+      "name": "trade-mr-mime-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/240/"
+    },
+    {
+      "name": "trade-darumaka-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/241/"
+    },
+    {
+      "name": "trade-zigzagoon-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/242/"
+    },
+    {
+      "name": "trade-stunfisk-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/243/"
+    },
+    {
+      "name": "trade-weezing-galar",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/244/"
+    },
+    {
+      "name": "trade-exeggutor",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/245/"
+    },
+    {
+      "name": "trade-marowak",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/246/"
+    },
+    {
+      "name": "weather-normal",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+    },
+    {
+      "name": "weather-overcast",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+    },
+    {
+      "name": "weather-raining",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/249/"
+    },
+    {
+      "name": "weather-thunderstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/250/"
+    },
+    {
+      "name": "weather-snowing",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/251/"
+    },
+    {
+      "name": "weather-snowstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/252/"
+    },
+    {
+      "name": "weather-sandstorm",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/253/"
+    },
+    {
+      "name": "weather-intense-sun",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/254/"
+    },
+    {
+      "name": "weather-fog",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+    },
+    {
+      "name": "story-progress-before-hall-of-fame",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+    }
+  ]
+}

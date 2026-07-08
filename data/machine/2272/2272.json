@@ -1,0 +1,15 @@
+{
+  "id": 2272,
+  "item": {
+    "name": "tm60",
+    "url": "https://pokeapi.co/api/v2/item/364/"
+  },
+  "move": {
+    "name": "future-sight",
+    "url": "https://pokeapi.co/api/v2/move/248/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

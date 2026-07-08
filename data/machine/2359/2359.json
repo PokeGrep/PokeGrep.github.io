@@ -1,0 +1,15 @@
+{
+  "id": 2359,
+  "item": {
+    "name": "tm147",
+    "url": "https://pokeapi.co/api/v2/item/1990/"
+  },
+  "move": {
+    "name": "tri-attack",
+    "url": "https://pokeapi.co/api/v2/move/161/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

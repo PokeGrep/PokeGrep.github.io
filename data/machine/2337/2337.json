@@ -1,0 +1,15 @@
+{
+  "id": 2337,
+  "item": {
+    "name": "tm125",
+    "url": "https://pokeapi.co/api/v2/item/1968/"
+  },
+  "move": {
+    "name": "mimic",
+    "url": "https://pokeapi.co/api/v2/move/102/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

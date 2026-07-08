@@ -1,0 +1,116 @@
+{
+  "areas": [
+    {
+      "name": "mt-pyre-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/368/"
+    },
+    {
+      "name": "mt-pyre-2f",
+      "url": "https://pokeapi.co/api/v2/location-area/369/"
+    },
+    {
+      "name": "mt-pyre-3f",
+      "url": "https://pokeapi.co/api/v2/location-area/370/"
+    },
+    {
+      "name": "mt-pyre-4f",
+      "url": "https://pokeapi.co/api/v2/location-area/371/"
+    },
+    {
+      "name": "mt-pyre-5f",
+      "url": "https://pokeapi.co/api/v2/location-area/372/"
+    },
+    {
+      "name": "mt-pyre-6f",
+      "url": "https://pokeapi.co/api/v2/location-area/373/"
+    },
+    {
+      "name": "mt-pyre-outside",
+      "url": "https://pokeapi.co/api/v2/location-area/374/"
+    },
+    {
+      "name": "mt-pyre-summit",
+      "url": "https://pokeapi.co/api/v2/location-area/375/"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 290,
+      "generation": {
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
+    }
+  ],
+  "id": 441,
+  "name": "mt-pyre",
+  "names": [
+    {
+      "language": {
+        "name": "ja-hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "おくりびやま"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "송화산"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Mont Mémoria"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Pyroberg"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Monte Pírico"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Monte Pira"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Mt. Pyre"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "おくりび山"
+    },
+    {
+      "language": {
+        "name": "es-419",
+        "url": "https://pokeapi.co/api/v2/language/14/"
+      },
+      "name": "Monte Pírico"
+    }
+  ],
+  "region": {
+    "name": "hoenn",
+    "url": "https://pokeapi.co/api/v2/region/3/"
+  }
+}

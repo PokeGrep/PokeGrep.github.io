@@ -1,0 +1,15 @@
+{
+  "id": 2352,
+  "item": {
+    "name": "tm140",
+    "url": "https://pokeapi.co/api/v2/item/1983/"
+  },
+  "move": {
+    "name": "muddy-water",
+    "url": "https://pokeapi.co/api/v2/move/330/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

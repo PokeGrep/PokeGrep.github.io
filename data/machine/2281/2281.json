@@ -1,0 +1,15 @@
+{
+  "id": 2281,
+  "item": {
+    "name": "tm69",
+    "url": "https://pokeapi.co/api/v2/item/373/"
+  },
+  "move": {
+    "name": "earthquake",
+    "url": "https://pokeapi.co/api/v2/move/89/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

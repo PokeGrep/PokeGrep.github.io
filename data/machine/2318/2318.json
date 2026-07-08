@@ -1,0 +1,15 @@
+{
+  "id": 2318,
+  "item": {
+    "name": "tm106",
+    "url": "https://pokeapi.co/api/v2/item/1949/"
+  },
+  "move": {
+    "name": "thunder",
+    "url": "https://pokeapi.co/api/v2/move/87/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

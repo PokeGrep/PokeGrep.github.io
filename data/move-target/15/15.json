@@ -1,0 +1,50 @@
+{
+  "descriptions": [
+    {
+      "description": "Tous les alliés du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "description": "All of the user’s allies.",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    }
+  ],
+  "id": 15,
+  "moves": [
+    {
+      "name": "lunar-blessing",
+      "url": "https://pokeapi.co/api/v2/move/849/"
+    },
+    {
+      "name": "take-heart",
+      "url": "https://pokeapi.co/api/v2/move/850/"
+    },
+    {
+      "name": "dragon-cheer",
+      "url": "https://pokeapi.co/api/v2/move/913/"
+    }
+  ],
+  "name": "all-allies",
+  "names": [
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Tous les alliés"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "All allies"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 2366,
+  "item": {
+    "name": "tm154",
+    "url": "https://pokeapi.co/api/v2/item/1997/"
+  },
+  "move": {
+    "name": "fissure",
+    "url": "https://pokeapi.co/api/v2/move/90/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

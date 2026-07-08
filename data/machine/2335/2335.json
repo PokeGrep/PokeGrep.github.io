@@ -1,0 +1,15 @@
+{
+  "id": 2335,
+  "item": {
+    "name": "tm123",
+    "url": "https://pokeapi.co/api/v2/item/1966/"
+  },
+  "move": {
+    "name": "poison-fang",
+    "url": "https://pokeapi.co/api/v2/move/305/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

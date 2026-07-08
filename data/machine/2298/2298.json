@@ -1,0 +1,15 @@
+{
+  "id": 2298,
+  "item": {
+    "name": "tm86",
+    "url": "https://pokeapi.co/api/v2/item/390/"
+  },
+  "move": {
+    "name": "wild-charge",
+    "url": "https://pokeapi.co/api/v2/move/528/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

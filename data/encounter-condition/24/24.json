@@ -1,0 +1,51 @@
+{
+  "id": 24,
+  "name": "alolan-diglett-found",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Find a certain number of Alolan Diglett in Isle of Armor"
+    }
+  ],
+  "values": [
+    {
+      "name": "alolan-diglett-found-5",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/214/"
+    },
+    {
+      "name": "alolan-diglett-found-10",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/215/"
+    },
+    {
+      "name": "alolan-diglett-found-20",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/216/"
+    },
+    {
+      "name": "alolan-diglett-found-30",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+    },
+    {
+      "name": "alolan-diglett-found-40",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/218/"
+    },
+    {
+      "name": "alolan-diglett-found-50",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/219/"
+    },
+    {
+      "name": "alolan-diglett-found-75",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+    },
+    {
+      "name": "alolan-diglett-found-100",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/221/"
+    },
+    {
+      "name": "alolan-diglett-found-150",
+      "url": "https://pokeapi.co/api/v2/encounter-condition-value/222/"
+    }
+  ]
+}

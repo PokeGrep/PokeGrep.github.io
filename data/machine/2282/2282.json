@@ -1,0 +1,15 @@
+{
+  "id": 2282,
+  "item": {
+    "name": "tm70",
+    "url": "https://pokeapi.co/api/v2/item/374/"
+  },
+  "move": {
+    "name": "whirlpool",
+    "url": "https://pokeapi.co/api/v2/move/250/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

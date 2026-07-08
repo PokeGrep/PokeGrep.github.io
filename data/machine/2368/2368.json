@@ -1,0 +1,15 @@
+{
+  "id": 2368,
+  "item": {
+    "name": "tm156",
+    "url": "https://pokeapi.co/api/v2/item/1999/"
+  },
+  "move": {
+    "name": "meteor-beam",
+    "url": "https://pokeapi.co/api/v2/move/800/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}

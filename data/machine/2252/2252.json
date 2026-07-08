@@ -1,0 +1,15 @@
+{
+  "id": 2252,
+  "item": {
+    "name": "tm40",
+    "url": "https://pokeapi.co/api/v2/item/344/"
+  },
+  "move": {
+    "name": "bullet-seed",
+    "url": "https://pokeapi.co/api/v2/move/331/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

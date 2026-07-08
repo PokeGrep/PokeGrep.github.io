@@ -1,0 +1,15 @@
+{
+  "id": 2224,
+  "item": {
+    "name": "tm12",
+    "url": "https://pokeapi.co/api/v2/item/316/"
+  },
+  "move": {
+    "name": "rock-slide",
+    "url": "https://pokeapi.co/api/v2/move/157/"
+  },
+  "version_group": {
+    "name": "legends-za",
+    "url": "https://pokeapi.co/api/v2/version-group/30/"
+  }
+}

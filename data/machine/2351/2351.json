@@ -1,0 +1,15 @@
+{
+  "id": 2351,
+  "item": {
+    "name": "tm139",
+    "url": "https://pokeapi.co/api/v2/item/1982/"
+  },
+  "move": {
+    "name": "swagger",
+    "url": "https://pokeapi.co/api/v2/move/207/"
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "https://pokeapi.co/api/v2/version-group/31/"
+  }
+}
