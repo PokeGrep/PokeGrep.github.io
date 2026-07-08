@@ -1,0 +1,283 @@
+[
+  {
+    "location_area": {
+      "name": "kanto-sea-route-21-area",
+      "url": "https://pokeapi.co/api/v2/location-area/312/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 42,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 37
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "lets-go-pikachu",
+          "url": "https://pokeapi.co/api/v2/version/31/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "dappled-grove-area",
+      "url": "https://pokeapi.co/api/v2/location-area/872/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-normal",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-normal",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-overcast",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-overcast",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-fog",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-fog",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 600,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-normal",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-normal",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/247/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-overcast",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-overcast",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/248/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-fog",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+              },
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 36,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 36
+          },
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "weather-fog",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/255/"
+              },
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "overworld-special",
+              "url": "https://pokeapi.co/api/v2/encounter-method/41/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 600,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

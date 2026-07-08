@@ -1,0 +1,718 @@
+[
+  {
+    "location_area": {
+      "name": "galar-route-1-area",
+      "url": "https://pokeapi.co/api/v2/location-area/843/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 3
+          },
+          {
+            "chance": 40,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 2
+          }
+        ],
+        "max_chance": 90,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 3
+          },
+          {
+            "chance": 40,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 2
+          }
+        ],
+        "max_chance": 90,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-2-main",
+      "url": "https://pokeapi.co/api/v2/location-area/844/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 38,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 38,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 38,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 38,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-3-east",
+      "url": "https://pokeapi.co/api/v2/location-area/845/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 80,
+            "condition_values": [],
+            "max_level": 13,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 8
+          }
+        ],
+        "max_chance": 80,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 80,
+            "condition_values": [],
+            "max_level": 13,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 8
+          }
+        ],
+        "max_chance": 80,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-4-area",
+      "url": "https://pokeapi.co/api/v2/location-area/847/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 15,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 13
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 15,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 13
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-5-area",
+      "url": "https://pokeapi.co/api/v2/location-area/848/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 18,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 16
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 18,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 16
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "dappled-grove-area",
+      "url": "https://pokeapi.co/api/v2/location-area/872/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 70,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 15,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 11
+          },
+          {
+            "chance": 70,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 140,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 70,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 15,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 11
+          },
+          {
+            "chance": 70,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 140,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "north-lake-miloch-area",
+      "url": "https://pokeapi.co/api/v2/location-area/909/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 16,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 14
+          },
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 16,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 14
+          },
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "rolling-fields-main",
+      "url": "https://pokeapi.co/api/v2/location-area/916/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 80,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 10,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 7
+          },
+          {
+            "chance": 80,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 160,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 80,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 10,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 7
+          },
+          {
+            "chance": 80,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 160,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "slumbering-weald-main",
+      "url": "https://pokeapi.co/api/v2/location-area/919/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 40,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 2
+          },
+          {
+            "chance": 50,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 2
+          }
+        ],
+        "max_chance": 90,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 40,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 2
+          },
+          {
+            "chance": 50,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 2
+          }
+        ],
+        "max_chance": 90,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "watchtower-ruins-area",
+      "url": "https://pokeapi.co/api/v2/location-area/941/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 14,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 11
+          },
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-before-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/256/"
+              }
+            ],
+            "max_level": 14,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 11
+          },
+          {
+            "chance": 50,
+            "condition_values": [
+              {
+                "name": "story-progress-hall-of-fame",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/35/"
+              }
+            ],
+            "max_level": 60,
+            "method": {
+              "name": "berry-trees",
+              "url": "https://pokeapi.co/api/v2/encounter-method/35/"
+            },
+            "min_level": 60
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "motostoke-pokemon-center",
+      "url": "https://pokeapi.co/api/v2/location-area/1373/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "trade-bunnelby",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/228/"
+              }
+            ],
+            "max_level": 10,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 10
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "trade-bunnelby",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/228/"
+              }
+            ],
+            "max_level": 10,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 10
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

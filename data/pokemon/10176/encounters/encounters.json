@@ -1,0 +1,56 @@
+[
+  {
+    "location_area": {
+      "name": "galar-route-10-main",
+      "url": "https://pokeapi.co/api/v2/location-area/856/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 46,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 44
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-10-near-station",
+      "url": "https://pokeapi.co/api/v2/location-area/857/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 46,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 43
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      }
+    ]
+  }
+]

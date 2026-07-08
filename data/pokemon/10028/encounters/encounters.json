@@ -1,0 +1,94 @@
+[
+  {
+    "location_area": {
+      "name": "kalos-route-16-area",
+      "url": "https://pokeapi.co/api/v2/location-area/727/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 36,
+            "method": {
+              "name": "rough-terrain",
+              "url": "https://pokeapi.co/api/v2/encounter-method/17/"
+            },
+            "min_level": 36
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "x",
+          "url": "https://pokeapi.co/api/v2/version/23/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 36,
+            "method": {
+              "name": "rough-terrain",
+              "url": "https://pokeapi.co/api/v2/encounter-method/17/"
+            },
+            "min_level": 36
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "y",
+          "url": "https://pokeapi.co/api/v2/version/24/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-4-area",
+      "url": "https://pokeapi.co/api/v2/location-area/847/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 16,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 14
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 16,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 14
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

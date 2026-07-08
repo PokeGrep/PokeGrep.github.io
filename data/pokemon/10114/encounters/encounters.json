@@ -1,0 +1,264 @@
+[
+  {
+    "location_area": {
+      "name": "fields-of-honor-area",
+      "url": "https://pokeapi.co/api/v2/location-area/876/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "alolan-diglett-found-75",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+              }
+            ],
+            "max_level": 30,
+            "method": {
+              "name": "gift",
+              "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "alolan-diglett-found-75",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/220/"
+              }
+            ],
+            "max_level": 30,
+            "method": {
+              "name": "gift",
+              "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "exeggutor-island-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1080/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 43,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 40
+          },
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 40,
+            "method": {
+              "name": "only-one",
+              "url": "https://pokeapi.co/api/v2/encounter-method/20/"
+            },
+            "min_level": 40
+          }
+        ],
+        "max_chance": 120,
+        "version": {
+          "name": "sun",
+          "url": "https://pokeapi.co/api/v2/version/27/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 43,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 40
+          },
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 40,
+            "method": {
+              "name": "only-one",
+              "url": "https://pokeapi.co/api/v2/encounter-method/20/"
+            },
+            "min_level": 40
+          }
+        ],
+        "max_chance": 120,
+        "version": {
+          "name": "moon",
+          "url": "https://pokeapi.co/api/v2/version/28/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 45,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 42
+          }
+        ],
+        "max_chance": 20,
+        "version": {
+          "name": "ultra-sun",
+          "url": "https://pokeapi.co/api/v2/version/29/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 45,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 42
+          }
+        ],
+        "max_chance": 20,
+        "version": {
+          "name": "ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version/30/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "indigo-plateau-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1202/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 46,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 46
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "lets-go-pikachu",
+          "url": "https://pokeapi.co/api/v2/version/31/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 46,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 46
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version/32/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "isle-of-armor-caves-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1376/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "trade-exeggutor",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/245/"
+              }
+            ],
+            "max_level": 15,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 15
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "trade-exeggutor",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/245/"
+              }
+            ],
+            "max_level": 15,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 15
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "location_area": {
+      "name": "slumbering-weald-deep",
+      "url": "https://pokeapi.co/api/v2/location-area/1369/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 15,
+            "condition_values": [],
+            "max_level": 47,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 45
+          },
+          {
+            "chance": 15,
+            "condition_values": [],
+            "max_level": 47,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 45
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 15,
+            "condition_values": [],
+            "max_level": 47,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 45
+          },
+          {
+            "chance": 15,
+            "condition_values": [],
+            "max_level": 47,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 45
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

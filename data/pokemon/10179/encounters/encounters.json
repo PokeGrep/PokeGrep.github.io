@@ -1,0 +1,48 @@
+[
+  {
+    "location_area": {
+      "name": "galar-route-6-area",
+      "url": "https://pokeapi.co/api/v2/location-area/849/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 35,
+            "condition_values": [],
+            "max_level": 33,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 29
+          }
+        ],
+        "max_chance": 35,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 35,
+            "condition_values": [],
+            "max_level": 33,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 29
+          }
+        ],
+        "max_chance": 35,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

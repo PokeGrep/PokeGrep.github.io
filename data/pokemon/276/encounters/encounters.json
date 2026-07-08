@@ -1,0 +1,680 @@
+[
+  {
+    "location_area": {
+      "name": "cherrygrove-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/186/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 15,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 10,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 5,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 5,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 25,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 21
+          }
+        ],
+        "max_chance": 35,
+        "version": {
+          "name": "heartgold",
+          "url": "https://pokeapi.co/api/v2/version/15/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 15,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 10,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 5,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 20,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 18
+          },
+          {
+            "chance": 5,
+            "condition_values": [
+              {
+                "name": "headbutt-tree-secret",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/194/"
+              }
+            ],
+            "max_level": 25,
+            "method": {
+              "name": "headbutt",
+              "url": "https://pokeapi.co/api/v2/encounter-method/7/"
+            },
+            "min_level": 21
+          }
+        ],
+        "max_chance": 35,
+        "version": {
+          "name": "soulsilver",
+          "url": "https://pokeapi.co/api/v2/version/16/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "petalburg-woods-area",
+      "url": "https://pokeapi.co/api/v2/location-area/365/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 4,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          },
+          {
+            "chance": 1,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "ruby",
+          "url": "https://pokeapi.co/api/v2/version/7/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 4,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          },
+          {
+            "chance": 1,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "sapphire",
+          "url": "https://pokeapi.co/api/v2/version/8/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 4,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          },
+          {
+            "chance": 1,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "emerald",
+          "url": "https://pokeapi.co/api/v2/version/9/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-104-area",
+      "url": "https://pokeapi.co/api/v2/location-area/396/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 4,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 4
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "ruby",
+          "url": "https://pokeapi.co/api/v2/version/7/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 4,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 4
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "sapphire",
+          "url": "https://pokeapi.co/api/v2/version/8/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 4,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 4
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 5,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "emerald",
+          "url": "https://pokeapi.co/api/v2/version/9/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-115-area",
+      "url": "https://pokeapi.co/api/v2/location-area/407/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 23,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 23
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 24,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 24
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 25,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 25
+          }
+        ],
+        "max_chance": 40,
+        "version": {
+          "name": "ruby",
+          "url": "https://pokeapi.co/api/v2/version/7/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 23,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 23
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 24,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 24
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 25,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 25
+          }
+        ],
+        "max_chance": 40,
+        "version": {
+          "name": "sapphire",
+          "url": "https://pokeapi.co/api/v2/version/8/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 20,
+            "condition_values": [],
+            "max_level": 23,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 23
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 24,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 24
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 25,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 25
+          }
+        ],
+        "max_chance": 40,
+        "version": {
+          "name": "emerald",
+          "url": "https://pokeapi.co/api/v2/version/9/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-116-area",
+      "url": "https://pokeapi.co/api/v2/location-area/408/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 7
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 8,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 8
+          }
+        ],
+        "max_chance": 20,
+        "version": {
+          "name": "ruby",
+          "url": "https://pokeapi.co/api/v2/version/7/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 7
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 8,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 8
+          }
+        ],
+        "max_chance": 20,
+        "version": {
+          "name": "sapphire",
+          "url": "https://pokeapi.co/api/v2/version/8/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 6,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 6
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 7
+          },
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 8,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 8
+          }
+        ],
+        "max_chance": 20,
+        "version": {
+          "name": "emerald",
+          "url": "https://pokeapi.co/api/v2/version/9/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kalos-route-8-area",
+      "url": "https://pokeapi.co/api/v2/location-area/719/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "horde",
+              "url": "https://pokeapi.co/api/v2/encounter-method/44/"
+            },
+            "min_level": 7
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "x",
+          "url": "https://pokeapi.co/api/v2/version/23/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 7,
+            "method": {
+              "name": "horde",
+              "url": "https://pokeapi.co/api/v2/encounter-method/44/"
+            },
+            "min_level": 7
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "y",
+          "url": "https://pokeapi.co/api/v2/version/24/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-104-north-oras",
+      "url": "https://pokeapi.co/api/v2/location-area/1207/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "horde",
+              "url": "https://pokeapi.co/api/v2/encounter-method/44/"
+            },
+            "min_level": 3
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "omega-ruby",
+          "url": "https://pokeapi.co/api/v2/version/25/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 5,
+            "condition_values": [],
+            "max_level": 3,
+            "method": {
+              "name": "horde",
+              "url": "https://pokeapi.co/api/v2/encounter-method/44/"
+            },
+            "min_level": 3
+          }
+        ],
+        "max_chance": 5,
+        "version": {
+          "name": "alpha-sapphire",
+          "url": "https://pokeapi.co/api/v2/version/26/"
+        }
+      }
+    ]
+  }
+]

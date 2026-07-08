@@ -1,0 +1,169 @@
+[
+  {
+    "location_area": {
+      "name": "kalos-route-7-area",
+      "url": "https://pokeapi.co/api/v2/location-area/718/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 14,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 14
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 14,
+            "method": {
+              "name": "yellow-flowers",
+              "url": "https://pokeapi.co/api/v2/encounter-method/14/"
+            },
+            "min_level": 14
+          },
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 14,
+            "method": {
+              "name": "purple-flowers",
+              "url": "https://pokeapi.co/api/v2/encounter-method/15/"
+            },
+            "min_level": 14
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "y",
+          "url": "https://pokeapi.co/api/v2/version/24/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "galar-route-5-area",
+      "url": "https://pokeapi.co/api/v2/location-area/848/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 30,
+            "condition_values": [],
+            "max_level": 21,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 19
+          },
+          {
+            "chance": 14,
+            "condition_values": [],
+            "max_level": 18,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 16
+          }
+        ],
+        "max_chance": 44,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "glimwood-tangle-area",
+      "url": "https://pokeapi.co/api/v2/location-area/891/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 36,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 34
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "friend-safari-fairy",
+      "url": "https://pokeapi.co/api/v2/location-area/1339/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 33,
+            "condition_values": [
+              {
+                "name": "friend-safari-slot-2",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/177/"
+              }
+            ],
+            "max_level": 30,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 33,
+        "version": {
+          "name": "x",
+          "url": "https://pokeapi.co/api/v2/version/23/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 33,
+            "condition_values": [
+              {
+                "name": "friend-safari-slot-2",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/177/"
+              }
+            ],
+            "max_level": 30,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 33,
+        "version": {
+          "name": "y",
+          "url": "https://pokeapi.co/api/v2/version/24/"
+        }
+      }
+    ]
+  }
+]

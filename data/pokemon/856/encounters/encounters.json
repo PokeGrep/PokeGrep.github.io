@@ -1,0 +1,80 @@
+[
+  {
+    "location_area": {
+      "name": "motostoke-outskirts-area",
+      "url": "https://pokeapi.co/api/v2/location-area/907/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 26,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 22
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 26,
+            "method": {
+              "name": "overworld",
+              "url": "https://pokeapi.co/api/v2/encounter-method/38/"
+            },
+            "min_level": 22
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "stow-on-side-area",
+      "url": "https://pokeapi.co/api/v2/location-area/932/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "trade-maractus",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/232/"
+              }
+            ],
+            "max_level": 30,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      }
+    ]
+  }
+]

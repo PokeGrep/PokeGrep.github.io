@@ -1,0 +1,29 @@
+[
+  {
+    "location_area": {
+      "name": "galar-route-10-main",
+      "url": "https://pokeapi.co/api/v2/location-area/856/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 2,
+            "condition_values": [],
+            "max_level": 46,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 44
+          }
+        ],
+        "max_chance": 2,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  }
+]

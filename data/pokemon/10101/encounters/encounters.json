@@ -1,0 +1,250 @@
+[
+  {
+    "location_area": {
+      "name": "celadon-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/283/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [],
+            "max_level": 27,
+            "method": {
+              "name": "npc-trade",
+              "url": "https://pokeapi.co/api/v2/encounter-method/36/"
+            },
+            "min_level": 27
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "lets-go-pikachu",
+          "url": "https://pokeapi.co/api/v2/version/31/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "fields-of-honor-area",
+      "url": "https://pokeapi.co/api/v2/location-area/876/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "alolan-diglett-found-30",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+              }
+            ],
+            "max_level": 5,
+            "method": {
+              "name": "gift",
+              "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "sword",
+          "url": "https://pokeapi.co/api/v2/version/33/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 100,
+            "condition_values": [
+              {
+                "name": "alolan-diglett-found-30",
+                "url": "https://pokeapi.co/api/v2/encounter-condition-value/217/"
+              }
+            ],
+            "max_level": 5,
+            "method": {
+              "name": "gift",
+              "url": "https://pokeapi.co/api/v2/encounter-method/18/"
+            },
+            "min_level": 5
+          }
+        ],
+        "max_chance": 100,
+        "version": {
+          "name": "shield",
+          "url": "https://pokeapi.co/api/v2/version/34/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "alola-route-14-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1059/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 31,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 28
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "moon",
+          "url": "https://pokeapi.co/api/v2/version/28/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 33,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version/30/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mount-lanakila-base",
+      "url": "https://pokeapi.co/api/v2/location-area/1108/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 30,
+            "condition_values": [],
+            "max_level": 33,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version/30/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mount-lanakila-outside",
+      "url": "https://pokeapi.co/api/v2/location-area/1110/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 30,
+            "condition_values": [],
+            "max_level": 45,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 42
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "moon",
+          "url": "https://pokeapi.co/api/v2/version/28/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 30,
+            "condition_values": [],
+            "max_level": 50,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 47
+          }
+        ],
+        "max_chance": 30,
+        "version": {
+          "name": "ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version/30/"
+        }
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "tapu-village-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1134/"
+    },
+    "version_details": [
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 31,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 28
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "moon",
+          "url": "https://pokeapi.co/api/v2/version/28/"
+        }
+      },
+      {
+        "encounter_details": [
+          {
+            "chance": 10,
+            "condition_values": [],
+            "max_level": 33,
+            "method": {
+              "name": "walk",
+              "url": "https://pokeapi.co/api/v2/encounter-method/1/"
+            },
+            "min_level": 30
+          }
+        ],
+        "max_chance": 10,
+        "version": {
+          "name": "ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version/30/"
+        }
+      }
+    ]
+  }
+]
