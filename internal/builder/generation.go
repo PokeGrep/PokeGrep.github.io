@@ -3,6 +3,7 @@ package builder
 import (
 	"fmt"
 	"pokegrep/internal/db"
+	"pokegrep/internal/localization"
 	"pokegrep/internal/models"
 	"pokegrep/internal/models/helpers"
 	"pokegrep/internal/ref"
@@ -14,6 +15,7 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 		"templates/layouts/base.html",
 		"templates/partials/navbar.html",
 		"templates/partials/footer.html",
+		"templates/components/pokemon_card.html",
 		"templates/generation.html",
 	}
 
@@ -60,12 +62,17 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 				panic(fmt.Sprintf("pokemon-species with %d not found", id))
 			}
 
+			var primaryType string
 			var pokemonTypes GenerationPokemonTypes
 
 			for i := range entry.GetTypes(p_gen) {
 				pokemonType, err := db.GetByName[models.Type](db.DirType, entry.GetTypes(p_gen)[i].Type.Name)
 				if err != nil {
 					panic(err)
+				}
+
+				if entry.GetTypes(p_gen)[i].Slot == 1 || primaryType == "" {
+					primaryType = pokemonType.Name
 				}
 
 				pokemonTypes = append(pokemonTypes, struct {
@@ -81,10 +88,11 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 			}
 
 			generationPokemon := GenerationPokemon{
-				PokedexId: entry.GetPokedexEntryNumber(),
-				Name:      helpers.GetTranslated(entry, helpers.NamesField, p_lang),
-				SpriteURL: entry.GetSpriteURL(),
-				Types:     pokemonTypes,
+				PokedexId:   entry.GetPokedexEntryNumber(),
+				Name:        helpers.GetTranslated(entry, helpers.NamesField, p_lang),
+				SpriteURL:   entry.GetSpriteURL(),
+				PrimaryType: primaryType,
+				Types:       pokemonTypes,
 			}
 
 			genPokemons = append(genPokemons, generationPokemon)
@@ -115,8 +123,9 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 
 	data := GenerationPage{
 		Page: Page{
-			Lang:  p_lang,
-			Title: genTrans,
+			Lang:   p_lang,
+			Title:  genTrans,
+			Layout: localization.GetLayoutLabels(p_lang, p_gen.Name),
 		},
 		GenerationName:     genTrans,
 		GenerationPokemons: genPokemons,

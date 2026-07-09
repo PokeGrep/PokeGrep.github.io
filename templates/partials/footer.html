@@ -3,11 +3,11 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
-                <span class="text-muted">$VAR_FOOTER_COPYRIGHT</span>
+                <span class="text-muted">{{ .Layout.FooterCopyright }}</span>
             </div>
             <div class="col-md-6 text-center text-md-right">
-                <span class="text-muted mr-3">$VAR_FOOTER_POWERED_BY <a href="$VAR_FOOTER_POKEAPI_URL" target="_blank" class="text-light text-decoration-none hover-text-warning">$VAR_FOOTER_POKEAPI_TEXT</a></span>
-                <a href="$VAR_FOOTER_GITHUB_URL" target="_blank" class="text-muted hover-text-light text-decoration-none">$VAR_FOOTER_GITHUB_TEXT</a>
+                <span class="text-muted mr-3">{{ .Layout.FooterPoweredBy }} <a href="{{ .Layout.FooterPokeApiUrl }}" target="_blank" class="text-light text-decoration-none hover-text-warning">{{ .Layout.FooterPokeApiText }}</a></span>
+                <a href="{{ .Layout.FooterGithubUrl }}" target="_blank" class="text-muted hover-text-light text-decoration-none">{{ .Layout.FooterGithubText }}</a>
             </div>
         </div>
     </div>

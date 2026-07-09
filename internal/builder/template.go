@@ -3,11 +3,13 @@ package builder
 import (
 	"html/template"
 	"os"
+	"pokegrep/internal/localization"
 )
 
 type Page struct {
-	Lang  string
-	Title string
+	Lang   string
+	Title  string
+	Layout localization.LayoutLabels
 }
 
 type GenerationPokemonType struct {
@@ -20,11 +22,12 @@ type GenerationPokemonTypes []struct {
 	Type GenerationPokemonType
 }
 type GenerationPokemon struct {
-	PokedexId int
-	Name      string
-	Shortname string
-	SpriteURL string
-	Types     GenerationPokemonTypes
+	PokedexId   int
+	Name        string
+	Shortname   string
+	SpriteURL   string
+	PrimaryType string
+	Types       GenerationPokemonTypes
 }
 
 type GenerationPage struct {
