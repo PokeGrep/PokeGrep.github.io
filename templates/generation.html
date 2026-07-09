@@ -5,11 +5,7 @@
         <div class="col-md-7">
             <h1 class="display-4 font-weight-bold text-light mb-1">{{ .GenerationName }}</h1>
             <p class="text-muted lead mb-0">
-                {{ if eq .Lang "fr" }}
-                    Explorez les Pokémon de la {{ .GenerationName }}.
-                {{ else }}
-                    Explore the Pokémon of the {{ .GenerationName }}.
-                {{ end }}
+                {{ .Labels.Subtitle }}
             </p>
         </div>
         <div class="col-md-5 text-md-right mt-3 mt-md-0">
@@ -26,7 +22,7 @@
                 <!-- Search bar -->
                 <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="input-group">
-                        <input type="text" id="pokemon-search" class="form-control bg-secondary text-light border-0 pokemon-search-input" placeholder="{{ if eq .Lang "fr" }}Rechercher par nom ou n°...{{ else }}Search by name or no...{{ end }}" style="border-radius: 8px 0 0 8px; outline: none; box-shadow: none;">
+                        <input type="text" id="pokemon-search" class="form-control bg-secondary text-light border-0 pokemon-search-input" placeholder="{{ .Labels.SearchPlaceholder }}" style="border-radius: 8px 0 0 8px; outline: none; box-shadow: none;">
                         <div class="input-group-append">
                             <button class="btn btn-secondary border-0" type="button" id="clear-search" style="border-radius: 0 8px 8px 0; outline: none; box-shadow: none;">
                                 &times;
@@ -38,7 +34,7 @@
                 <div class="col-lg-8">
                     <div class="d-flex flex-wrap align-items-center justify-content-start justify-content-lg-end" id="type-filter-container">
                         <button class="btn btn-sm btn-light m-1 type-filter-btn font-weight-bold" data-type="all" style="border-radius: 6px;">
-                            {{ if eq .Lang "fr" }}Tous{{ else }}All{{ end }}
+                            {{ .Labels.FilterAll }}
                         </button>
                         <!-- Dynamic buttons will be appended here by JS -->
                     </div>
@@ -49,7 +45,7 @@
 
     <!-- Active Filters Summary (Always Visible) -->
     <div class="d-flex flex-wrap align-items-center mb-4 px-2 text-muted small" id="active-filters-summary">
-        <span class="mr-2 font-weight-bold">{{ if eq .Lang "fr" }}Filtres actifs :{{ else }}Active filters:{{ end }}</span>
+        <span class="mr-2 font-weight-bold">{{ .Labels.ActiveFilters }}</span>
         <div class="d-flex flex-wrap align-items-center" id="active-filters-list" style="gap: 6px;">
             <!-- Filter tags will be inserted here dynamically -->
         </div>
@@ -67,21 +63,13 @@
         <div class="col text-center">
             <div class="mb-3" style="font-size: 3rem; opacity: 0.5;">🔍</div>
             <h4>
-                {{ if eq .Lang "fr" }}
-                    Aucun Pokémon ne correspond à votre recherche
-                {{ else }}
-                    No Pokémon matches your criteria
-                {{ end }}
+                {{ .Labels.NoResultsTitle }}
             </h4>
             <p class="text-muted">
-                {{ if eq .Lang "fr" }}
-                    Essayez d'ajuster les filtres ou la recherche par nom.
-                {{ else }}
-                    Try adjusting the search query or filters.
-                {{ end }}
+                {{ .Labels.NoResultsSubtitle }}
             </p>
             <button class="btn btn-sm btn-outline-warning mt-2 px-3" id="reset-filters-btn" style="border-radius: 20px;">
-                {{ if eq .Lang "fr" }}Réinitialiser{{ else }}Reset Filters{{ end }}
+                {{ .Labels.ResetFilters }}
             </button>
         </div>
     </div>
@@ -241,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!hasFilters) {
             const noFilterTag = document.createElement("span");
             noFilterTag.className = "text-muted font-italic";
-            noFilterTag.textContent = `{{ if eq .Lang "fr" }}Aucun filtre actif (Tous les Pokémon){{ else }}No active filters (All Pokémon){{ end }}`;
+            noFilterTag.textContent = `{{ .Labels.NoActiveFiltersText }}`;
             activeFiltersList.appendChild(noFilterTag);
         }
     }

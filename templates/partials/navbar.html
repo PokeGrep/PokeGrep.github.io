@@ -22,7 +22,7 @@
                         <div class="dropdown-menu bg-dark border-secondary shadow" aria-labelledby="genDropdown">
                             <a class="dropdown-item text-light hover-text-warning" href="/{{ .Lang }}/generation-i/">{{ .Layout.NavGen1 }}</a>
                             <div class="dropdown-divider border-secondary"></div>
-                            <span class="dropdown-item-text text-muted small font-weight-bold">{{ if eq .Lang "fr" }}Prochainement :{{ else }}Coming soon:{{ end }}</span>
+                            <span class="dropdown-item-text text-muted small font-weight-bold">{{ .Layout.NavComingSoon }}</span>
                             <a class="dropdown-item text-muted disabled" href="#">Generation II</a>
                             <a class="dropdown-item text-muted disabled" href="#">Generation III</a>
                             <a class="dropdown-item text-muted disabled" href="#">Generation IV</a>

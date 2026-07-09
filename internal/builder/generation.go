@@ -128,6 +128,7 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 			Layout: localization.GetLayoutLabels(p_lang, p_gen.Name),
 		},
 		GenerationName:     genTrans,
+		Labels:             localization.GetGenerationLabels(p_lang, genTrans),
 		GenerationPokemons: genPokemons,
 	}
 	return buildTemplate(tmpl, data, "dist/"+p_lang+"/"+p_gen.Name) &&

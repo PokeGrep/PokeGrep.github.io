@@ -33,6 +33,7 @@ type GenerationPokemon struct {
 type GenerationPage struct {
 	Page
 	GenerationName     string
+	Labels             localization.GenerationLabels
 	GenerationPokemons []GenerationPokemon
 }
 

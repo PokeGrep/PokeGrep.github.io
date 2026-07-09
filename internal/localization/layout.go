@@ -4,6 +4,7 @@ type LayoutLabels struct {
 	NavHome           string
 	NavGenerations    string
 	NavGen1           string
+	NavComingSoon     string
 	SearchPlaceholder string
 	CurrentLang       string
 	LangEnUrl         string
@@ -22,6 +23,7 @@ var layoutLabelsFR = LayoutLabels{
 	NavHome:           "Accueil",
 	NavGenerations:    "Générations",
 	NavGen1:           "1re Génération",
+	NavComingSoon:     "Prochainement :",
 	SearchPlaceholder: "Rechercher...",
 	CurrentLang:       "Français",
 	LangEnLabel:       "English",
@@ -38,6 +40,7 @@ var layoutLabelsEN = LayoutLabels{
 	NavHome:           "Home",
 	NavGenerations:    "Generations",
 	NavGen1:           "1st Generation",
+	NavComingSoon:     "Coming soon:",
 	SearchPlaceholder: "Search...",
 	CurrentLang:       "English",
 	LangEnLabel:       "English",
