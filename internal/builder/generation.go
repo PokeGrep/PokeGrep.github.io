@@ -88,11 +88,14 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 			}
 
 			generationPokemon := GenerationPokemon{
-				PokedexId:   entry.GetPokedexEntryNumber(),
-				Name:        helpers.GetTranslated(entry, helpers.NamesField, p_lang),
-				SpriteURL:   entry.GetSpriteURL(),
-				PrimaryType: primaryType,
-				Types:       pokemonTypes,
+				Lang:          p_lang,
+				GenerationURL: p_gen.Name,
+				PokedexId:     entry.GetPokedexEntryNumber(),
+				Name:          helpers.GetTranslated(entry, helpers.NamesField, p_lang),
+				Shortname:     entry.Name,
+				SpriteURL:     entry.GetSpriteURL(),
+				PrimaryType:   primaryType,
+				Types:         pokemonTypes,
 			}
 
 			genPokemons = append(genPokemons, generationPokemon)

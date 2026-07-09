@@ -22,12 +22,14 @@ type GenerationPokemonTypes []struct {
 	Type GenerationPokemonType
 }
 type GenerationPokemon struct {
-	PokedexId   int
-	Name        string
-	Shortname   string
-	SpriteURL   string
-	PrimaryType string
-	Types       GenerationPokemonTypes
+	Lang          string
+	GenerationURL string
+	PokedexId     int
+	Name          string
+	Shortname     string
+	SpriteURL     string
+	PrimaryType   string
+	Types         GenerationPokemonTypes
 }
 
 type GenerationPage struct {
