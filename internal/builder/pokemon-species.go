@@ -28,6 +28,6 @@ func buildPokemonSpecies(p_lang string, p_gen ref.GenerationInfo) bool {
 }
 
 func buildPokemonSpecie(p_lang string, p_gen ref.GenerationInfo, p_specie *models.PokemonSpecies) bool {
-	
+
 	return true
 }

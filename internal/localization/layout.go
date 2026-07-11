@@ -4,6 +4,12 @@ type LayoutLabels struct {
 	NavHome           string
 	NavGenerations    string
 	NavGen1           string
+	NavGen2           string
+	NavGen3           string
+	NavGen4           string
+	NavGen5           string
+	NavGen6           string
+	NavGen7           string
 	NavComingSoon     string
 	SearchPlaceholder string
 	CurrentLang       string
@@ -23,6 +29,12 @@ var layoutLabelsFR = LayoutLabels{
 	NavHome:           "Accueil",
 	NavGenerations:    "Générations",
 	NavGen1:           "1re Génération",
+	NavGen2:           "2ème Génération",
+	NavGen3:           "3ème Génération",
+	NavGen4:           "4ème Génération",
+	NavGen5:           "5ème Génération",
+	NavGen6:           "6ème Génération",
+	NavGen7:           "7ème Génération",
 	NavComingSoon:     "Prochainement :",
 	SearchPlaceholder: "Rechercher...",
 	CurrentLang:       "Français",
@@ -40,6 +52,12 @@ var layoutLabelsEN = LayoutLabels{
 	NavHome:           "Home",
 	NavGenerations:    "Generations",
 	NavGen1:           "1st Generation",
+	NavGen2:           "2nd Generation",
+	NavGen3:           "3rd Generation",
+	NavGen4:           "4th Generation",
+	NavGen5:           "5th Generation",
+	NavGen6:           "6th Generation",
+	NavGen7:           "7th Generation",
 	NavComingSoon:     "Coming soon:",
 	SearchPlaceholder: "Search...",
 	CurrentLang:       "English",
