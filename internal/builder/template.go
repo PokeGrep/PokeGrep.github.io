@@ -1,64 +1,57 @@
 package builder
 
 import (
-	"html/template"
+	"context"
 	"os"
-	"pokegrep/internal/localization"
+	"path/filepath"
+
+	"github.com/a-h/templ"
 )
 
-type Page struct {
-	Lang   string
-	Title  string
-	Layout localization.LayoutLabels
-}
-
-type GenerationPokemonType struct {
-	Name      string
-	Shortname string
-}
-
-type GenerationPokemonTypes []struct {
-	Slot int
-	Type GenerationPokemonType
-}
-type GenerationPokemon struct {
-	Lang          string
-	GenerationURL string
-	PokedexId     int
-	Name          string
-	Shortname     string
-	SpriteURL     string
-	PrimaryType   string
-	Types         GenerationPokemonTypes
-}
-
-type GenerationPage struct {
-	Page
-	GenerationName     string
-	Labels             localization.GenerationLabels
-	GenerationPokemons []GenerationPokemon
-}
-
-func buildTemplate(p_templateSource []string, p_data any, p_templateOutput string) bool {
-	tmpl := template.Must(
-		template.ParseFiles(p_templateSource...),
-	)
-
-	// Create parent directories recursively if they don't exist
-	if err := os.MkdirAll(p_templateOutput, 0755); err != nil {
+// renderToFile renders a templ.Component directly to the specified file path.
+func renderToFile(component templ.Component, outputPath string) bool {
+	dir := filepath.Dir(outputPath)
+	if err := os.MkdirAll(dir, 0755); err != nil {
 		panic(err)
 	}
 
-	file, err := os.Create(p_templateOutput + "/index.html")
+	file, err := os.Create(outputPath)
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
 
-	err = tmpl.Execute(file, p_data)
+	err = component.Render(context.Background(), file)
 	if err != nil {
 		panic(err)
 	}
 
 	return true
+}
+
+// shouldRebuild returns true if the target file needs to be regenerated.
+// If IsDev is false, it always returns true (force full build in CI/production).
+func shouldRebuild(outputPath string, sourceFiles ...string) bool {
+	if !IsDev {
+		return true
+	}
+
+	destInfo, err := os.Stat(outputPath)
+	if err != nil {
+		return true // File does not exist, build it
+	}
+
+	destModTime := destInfo.ModTime()
+
+	for _, src := range sourceFiles {
+		srcInfo, err := os.Stat(src)
+		if err != nil {
+			continue
+		}
+		if srcInfo.ModTime().After(destModTime) {
+			return true // Source is newer, rebuild
+		}
+	}
+
+	return false
 }

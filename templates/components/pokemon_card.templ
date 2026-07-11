@@ -1,0 +1,41 @@
+package components
+
+import (
+	"fmt"
+	"pokegrep/templates/viewmodels"
+)
+
+templ PokemonCard(pokemon viewmodels.GenerationPokemon) {
+	<div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 pokemon-card-wrapper" data-name={ pokemon.Name } data-id={ fmt.Sprintf("%d", pokemon.PokedexId) } data-types={ getTypesString(pokemon.Types) }>
+		<a href={ templ.SafeURL(fmt.Sprintf("/%s/%s/poke/%s", pokemon.Lang, pokemon.GenerationURL, pokemon.Shortname)) }>
+			<div class={ "pokemon-card", "type-card-" + pokemon.PrimaryType, "h-100", "d-flex", "flex-column", "justify-content-between" }>
+				<div>
+					<!-- Header ID & Number -->
+					<div class="d-flex justify-content-between align-items-center mb-1">
+						<span class="pokemon-id text-muted small font-weight-bold">#{ fmt.Sprintf("%04d", pokemon.PokedexId) }</span>
+					</div>
+					<!-- Sprite Container -->
+					<div class="sprite-container">
+						<img class="pixel-art pokemon-sprite" src={ pokemon.SpriteURL } alt={ pokemon.Name } loading="lazy"/>
+					</div>
+					<!-- Name -->
+					<h6 class="pokemon-name text-light font-weight-bold text-center text-truncate mb-2" title={ pokemon.Name }>{ pokemon.Name }</h6>
+				</div>
+				<!-- Types Badges -->
+				<div class="pokemon-types d-flex justify-content-center flex-wrap mt-auto">
+					for _, t := range pokemon.Types {
+						<span class={ "type-badge", "type-" + t.Type.Shortname }>{ t.Type.Name }</span>
+					}
+				</div>
+			</div>
+		</a>
+	</div>
+}
+
+func getTypesString(types viewmodels.GenerationPokemonTypes) string {
+	var s string
+	for _, t := range types {
+		s += t.Type.Shortname + " "
+	}
+	return s
+}

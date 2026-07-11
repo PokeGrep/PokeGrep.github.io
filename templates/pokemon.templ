@@ -1,0 +1,15 @@
+package templates
+
+import (
+	"pokegrep/templates/layouts"
+	"pokegrep/templates/viewmodels"
+)
+
+templ Pokemon(data viewmodels.Page, navBar templ.Component, footer templ.Component) {
+	@layouts.Base(data.Lang, data.Title, navBar, footer) {
+		<div>
+			<h1>{ data.Title }</h1>
+			<p>Pokemon page template coming soon...</p>
+		</div>
+	}
+}

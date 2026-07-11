@@ -1,0 +1,21 @@
+package partials
+
+import "pokegrep/internal/localization"
+
+templ Footer(layoutLabels localization.LayoutLabels) {
+	<footer class="bg-dark text-light border-top border-secondary py-4 mt-auto">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
+					<span class="text-muted">{ layoutLabels.FooterCopyright }</span>
+				</div>
+				<div class="col-md-6 text-center text-md-right">
+					<span class="text-muted mr-3">
+						{ layoutLabels.FooterPoweredBy } <a href={ templ.SafeURL(layoutLabels.FooterPokeApiUrl) } target="_blank" class="text-light text-decoration-none hover-text-warning">{ layoutLabels.FooterPokeApiText }</a>
+					</span>
+					<a href={ templ.SafeURL(layoutLabels.FooterGithubUrl) } target="_blank" class="text-muted hover-text-light text-decoration-none">{ layoutLabels.FooterGithubText }</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+}

@@ -1,6 +1,8 @@
 {
   "files.associations": {
-    "*.templ": "templ"
+    "*.templ": "templ",
+    "**/templates/**/*.go": "go",
+    "**/templates/viewmodels/*.go": "go"
   },
   "[templ]": {
     "editor.defaultFormatter": "a-h.templ",

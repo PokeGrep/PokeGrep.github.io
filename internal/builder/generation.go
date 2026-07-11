@@ -7,33 +7,31 @@ import (
 	"pokegrep/internal/models"
 	"pokegrep/internal/models/helpers"
 	"pokegrep/internal/ref"
+	"pokegrep/templates"
+	"pokegrep/templates/partials"
+	"pokegrep/templates/viewmodels"
 	"sort"
 )
 
 func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
-	tmpl := []string{
-		"templates/layouts/base.html",
-		"templates/partials/navbar.html",
-		"templates/partials/footer.html",
-		"templates/components/pokemon_card.html",
-		"templates/generation.html",
+	outputPath := "dist/" + p_lang + "/" + p_gen.Name + "/index.html"
+	dependencies := []string{
+		"templates/generation.templ",
+		"templates/layouts/base.templ",
+		"templates/partials/navbar.templ",
+		"templates/partials/footer.templ",
+		"templates/components/pokemon_card.templ",
 	}
 
-	// langModel, err := db.GetByName[models.Language](
-	// 	db.DirLanguage,
-	// 	p_lang,
-	// )
-	// if err != nil {
-	// 	panic("langModel not found")
-	// }
-	// langTrans := helpers.GetTranslated(
-	// 	langModel,
-	// 	helpers.NamesField,
-	// 	p_lang,
-	// )
+	if !shouldRebuild(outputPath, dependencies...) {
+		return buildAbility(p_lang, p_gen) &&
+			buildItem(p_lang, p_gen) &&
+			buildMove(p_lang, p_gen) &&
+			buildPokemonSpecies(p_lang, p_gen)
+	}
 
 	var genTrans string
-	var genPokemons []GenerationPokemon
+	var genPokemons []viewmodels.GenerationPokemon
 
 	// If p_gen refers as a Generation (I-VII) instead of a Version Group
 	// (sword-shield, scarlet-violet..)
@@ -65,7 +63,7 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 				}
 
 				var primaryType string
-				var pokemonTypes GenerationPokemonTypes
+				var pokemonTypes viewmodels.GenerationPokemonTypes
 
 				for i := range entry.GetTypes(p_gen) {
 					pokemonType, err := db.GetByName[models.Type](db.DirType, entry.GetTypes(p_gen)[i].Type.Name)
@@ -79,17 +77,17 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 
 					pokemonTypes = append(pokemonTypes, struct {
 						Slot int
-						Type GenerationPokemonType
+						Type viewmodels.GenerationPokemonType
 					}{
 						Slot: entry.GetTypes(p_gen)[i].Slot,
-						Type: GenerationPokemonType{
+						Type: viewmodels.GenerationPokemonType{
 							Name:      helpers.GetTranslated(pokemonType, helpers.NamesField, p_lang),
 							Shortname: pokemonType.Name,
 						},
 					})
 				}
 
-				generationPokemon := GenerationPokemon{
+				generationPokemon := viewmodels.GenerationPokemon{
 					Lang:          p_lang,
 					GenerationURL: p_gen.Name,
 					PokedexId:     entry.GetPokedexEntryNumber(),
@@ -103,7 +101,7 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 				genPokemons = append(genPokemons, generationPokemon)
 
 				// Cleanup the types
-				pokemonTypes = GenerationPokemonTypes{}
+				pokemonTypes = viewmodels.GenerationPokemonTypes{}
 
 				// Sort genPokemons by their pokedex id
 				sort.Slice(genPokemons, func(i1, i2 int) bool {
@@ -127,17 +125,23 @@ func buildGeneration(p_lang string, p_gen ref.GenerationInfo) bool {
 		)
 	}
 
-	data := GenerationPage{
-		Page: Page{
+	translation := localization.Get(p_lang, p_gen.Name)
+	data := viewmodels.GenerationPage{
+		Page: viewmodels.Page{
 			Lang:   p_lang,
 			Title:  genTrans,
-			Layout: localization.GetLayoutLabels(p_lang, p_gen.Name),
+			Layout: translation.Layout,
 		},
 		GenerationName:     genTrans,
-		Labels:             localization.GetGenerationLabels(p_lang, genTrans),
+		Labels:             translation.Generation,
 		GenerationPokemons: genPokemons,
 	}
-	return buildTemplate(tmpl, data, "dist/"+p_lang+"/"+p_gen.Name) &&
+
+	navBar := partials.Navbar(p_lang, genTrans, translation.Layout)
+	footer := partials.Footer(translation.Layout)
+	component := templates.Generation(data, navBar, footer)
+
+	return renderToFile(component, "dist/"+p_lang+"/"+p_gen.Name+"/index.html") &&
 		buildAbility(p_lang, p_gen) &&
 		buildItem(p_lang, p_gen) &&
 		buildMove(p_lang, p_gen) &&

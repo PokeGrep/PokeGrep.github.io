@@ -14,7 +14,7 @@ func main() {
 	flag.Parse()
 
 	fmt.Println("Building...")
-	builder.Build()
+	builder.Build(*serveFlag)
 	fmt.Println("Build complete!")
 
 	if *serveFlag {
